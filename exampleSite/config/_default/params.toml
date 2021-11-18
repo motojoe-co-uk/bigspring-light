@@ -3,7 +3,7 @@ blogCategoryType = "category"
 contact_form_action = "#"
 description = "This is meta description"
 image = "images/logo.png"
-logo = "images/logo.png"
+logo = "images/motojoe.svg"
 logo_width = "200px"
 [cookies]
 button = "I Accept"
