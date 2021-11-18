@@ -18,7 +18,7 @@ link = "contact"
 enable = false
 preloader = ""
 [[social]]
-icon = "fa fa-instagram"
+icon = "fab fa-instagram"
 link = "#motojoe.co.uk"
 title = "instagram"
 [[social]]
