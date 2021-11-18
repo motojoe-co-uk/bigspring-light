@@ -18,13 +18,13 @@ link = "contact"
 enable = false
 preloader = ""
 [[social]]
+icon = "fa instagram"
+link = "#motojoe.co.uk"
+title = "instagram"
+[[social]]
 icon = "fab fa-facebook"
 link = "#motojoe.co.uk"
 title = "facebook"
-[[social]]
-icon = "fab fa-twitter"
-link = "#"
-title = "twitter"
 [[social]]
 icon = "fab fa-skype"
 link = "#"
