@@ -2,7 +2,7 @@ author = "Martin Williamson"
 blogCategoryType = "category"
 contact_form_action = "#"
 description = "This is meta description"
-image = "images/logo.png"
+image = "images/motojoe.svg"
 logo = "images/motojoe.svg"
 logo_width = "200px"
 [cookies]
