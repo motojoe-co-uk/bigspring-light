@@ -4,7 +4,7 @@ contact_form_action = "#"
 description = "This is meta description"
 image = "images/motojoe.svg"
 logo = "images/motojoe.svg"
-logo_width = "200px"
+logo_width = "150px"
 [cookies]
 button = "I Accept"
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
