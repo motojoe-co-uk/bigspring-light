@@ -6,7 +6,8 @@ description: This is meta description
 ---
 ### Contact us!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+**MotoJoe is all about having fun with motorcycles.**  
+**Our ethos is to support and inspire each and every customer.**
 
 * **Phone: +44 (0) 131 654 2777**
 * **Mail: info@motojoe.co.uk**
