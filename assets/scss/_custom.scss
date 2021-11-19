@@ -9,10 +9,12 @@
   }
 }
 
-header .navigation {
-  top: 0;
-  position: sticky;
-  position: -webkit-sticky;
-  background-color: yellowgreen;
-  z-index: 100;
+header {
+  .navigation {
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: yellowgreen;
+    z-index: 100;
+  }
 }
