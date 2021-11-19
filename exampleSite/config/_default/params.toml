@@ -11,7 +11,7 @@ content = "This site uses cookies. By continuing to use this website, you agree 
 enable = false
 expire_days = 2
 [navigation_button]
-enable = true
+enable = false
 label = "Get Started"
 link = "contact"
 [preloader]
