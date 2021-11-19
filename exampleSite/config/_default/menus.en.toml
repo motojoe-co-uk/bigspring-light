@@ -40,7 +40,7 @@ weight = "3"
 [[main]]
 name = "Pricing"
 url = "pricing"
-weight = 3
+weight = "7"
 [[main]]
 name = "Contact"
 url = "contact"
