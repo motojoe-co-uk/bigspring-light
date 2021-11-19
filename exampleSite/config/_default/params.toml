@@ -8,7 +8,7 @@ logo_width = "150px"
 [cookies]
 button = "I Accept"
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
-enable = false
+enable = true
 expire_days = 2
 [navigation_button]
 enable = false
