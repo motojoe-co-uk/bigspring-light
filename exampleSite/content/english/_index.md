@@ -34,20 +34,23 @@ feature:
 service:
   enable: true
   service_item:
-  - title: It is the most advanced digital marketing and it company.
+  - title: MotoJoe
     images:
     - images/service-1.png
     - images/service-2.png
     - images/service-3.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    content: MotoJoe is all about having fun with motorcycles.
+
+              We can help you take your first steps into motorcycling with our training. We can take you on adventures in Scotland and beyond. We can take you off the beaten track and, indeed, the road, for off-road experiences.
+
+              Our ethos is to support and inspire each and every customer.
+
+              From helping you gain the skills and experience to get the most out of your time on a motorcycle to sharing our passion and enthusiasm for touring Scotland (and beyond!) by motorcycle.
     button:
       enable: true
       label: Check it out
       link: "#"
+      
   - title: It is a privately owned Information and cyber security company
     images:
     - images/service-1.png
