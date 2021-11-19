@@ -1,4 +1,6 @@
 [[params.plugins.css]]
+link = "plugins/carousel/carousel.css"
+[[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
