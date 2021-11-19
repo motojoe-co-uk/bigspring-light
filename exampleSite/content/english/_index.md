@@ -31,7 +31,7 @@ feature:
   - name: Cloud Support
     icon: fas fa-cloud
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
-    
+
 service:
   enable: true
   service_item:
@@ -57,7 +57,7 @@ service:
     - images/service-1.png
     - images/service-2.png
     content: <strong>Spectacular Tours of Scotland</strong><br/><br/>
-    rentamotorcycle.co.uk run tours (guided and unguided) taking you to our favourite parts of Scotland and, occasionally, beyond.
+      rentamotorcycle.co.uk run tours (guided and unguided) taking you to our favourite parts of Scotland and, occasionally, beyond.
     button:
       enable: true
       label: More info...
