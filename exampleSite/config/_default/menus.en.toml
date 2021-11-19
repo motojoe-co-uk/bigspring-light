@@ -31,7 +31,7 @@ url = "/tours"
 weight = "1"
 [[main]]
 name = "rentals"
-url = "/rentals"
+url = "https://rentamotorcycle.co.uk/rental-bike-selection/"
 weight = "1"
 [[main]]
 name = "Home"
