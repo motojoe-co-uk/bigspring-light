@@ -26,6 +26,10 @@ url = "terms-conditions"
 name = "FAQ"
 url = "faq"
 [[main]]
+name = "tours"
+url = "/tours"
+weight = "1"
+[[main]]
 name = "tours and rentals"
 url = "/rentamotorcycle"
 weight = "1"
