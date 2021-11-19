@@ -14,3 +14,10 @@
 .carousel ol li.selected a {background: white;}
 .carousel .prev, .carousel .next {display: none; user-select:none; cursor: pointer; font-size: 50px; color: white; position: absolute; left: 0; padding: 15px 15px 30px; top: 50%; transform: translateY(-50%); z-index: 9; line-height: 0;}
 .carousel .next {left: auto; right: 0;}
+
+.nav-item {
+  
+    .nav-link {
+      text-transform: unset;
+    }
+  }
