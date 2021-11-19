@@ -30,8 +30,8 @@ name = "tours"
 url = "/tours"
 weight = "1"
 [[main]]
-name = "tours and rentals"
-url = "/rentamotorcycle"
+name = "rentals"
+url = "/rentals"
 weight = "1"
 [[main]]
 name = "Home"
