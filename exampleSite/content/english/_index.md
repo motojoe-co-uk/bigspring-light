@@ -31,6 +31,7 @@ feature:
   - name: Cloud Support
     icon: fas fa-cloud
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    
 service:
   enable: true
   service_item:
@@ -39,32 +40,30 @@ service:
     - images/service-1.png
     - images/service-2.png
     - images/service-3.png
-    content: MotoJoe is all about having fun with motorcycles.<br/><br/>
+    content: <strong>MotoJoe is all about having fun with motorcycles.</strong><br/><br/>
 
               We can help you take your first steps into motorcycling with our training. We can take you on adventures in Scotland and beyond. We can take you off the beaten track and, indeed, the road, for off-road experiences.<br/><br/>
 
-              Our ethos is to support and inspire each and every customer.<br/><br/>
+              <strong>Our ethos is to support and inspire each and every customer.</strong><br/><br/>
 
               From helping you gain the skills and experience to get the most out of your time on a motorcycle to sharing our passion and enthusiasm for touring Scotland (and beyond!) by motorcycle.
     button:
       enable: true
-      label: Check it out
+      label: More info...
       link: "#"
 
-  - title: It is a privately owned Information and cyber security company
+  - title: Tours
     images:
     - images/service-1.png
     - images/service-2.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    content: <strong>Spectacular Tours of Scotland</strong><br/><br/>
+    rentamotorcycle.co.uk run tours (guided and unguided) taking you to our favourite parts of Scotland and, occasionally, beyond.
     button:
       enable: true
-      label: Check it out
+      label: More info...
       link: "#"
-  - title: It’s a team of experienced and skilled people with distributions
+
+  - title: Rental
     images:
     - images/service-2.png
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
@@ -74,9 +73,10 @@ service:
       consquat.
     button:
       enable: true
-      label: Check it out
+      label: More info...
       link: "#"
-  - title: A company standing different from others
+
+  - title: Training
     images:
     - images/service-3.png
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
@@ -86,8 +86,22 @@ service:
       consquat.
     button:
       enable: true
-      label: Check it out
+      label: More info...
       link: "#"
+
+  - title: BIC Rallye Club
+    images:
+    - images/service-3.png
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
+      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
+      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
+      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
+      consquat.
+    button:
+      enable: true
+      label: More info...
+      link: "#"
+
 screenshot:
   enable: true
   title: Experience the best <br> workflow with us
