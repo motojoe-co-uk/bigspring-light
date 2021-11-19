@@ -28,7 +28,7 @@ url = "faq"
 [[main]]
 name = "tours"
 url = "https://rentamotorcycle.co.uk"
-weight = "2"
+weight = "1"
 [[main]]
 name = "rentals"
 url = "https://rentamotorcycle.co.uk/rental-bike-selection/"
