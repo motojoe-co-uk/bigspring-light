@@ -1,10 +1,12 @@
   ---
 banner:
-  title: Let us solve your critical website <br> development challenges
+  title: MotoJoe is all about having fun with motorcycles
   image: images/banner-art.svg
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim
-    maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque
-    laborum officiis necessitatibus
+  content: We can help you take your first steps into motorcycling with our training. We can take you on adventures in Scotland and beyond. We can take you off the   beaten track and, indeed, the road, for off-road experiences.<br/><br/>
+
+    <strong>Our ethos is to support and inspire each and every customer.</strong><br/><br/>
+
+    From helping you gain the skills and experience to get the most out of your time on a motorcycle to sharing our passion and enthusiasm for touring Scotland (and beyond!) by motorcycle.
   button:
     enable: true
     label: Contact Us
