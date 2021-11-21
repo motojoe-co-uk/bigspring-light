@@ -10,14 +10,15 @@ banner:
     enable: true
     label: Contact Us
     link: contact
+
 feature:
   enable: true
   title: 
   feature_item:
-  - name: Unguided Tours
+  - name: Guided Tours
     icon: fas fa-map-signs
     content: Guided and unguided tours of Scotland
-  - name: Guided Tours
+  - name: Unguided Tours
     icon: fas fa-map-signs
     content: Guided and unguided tours of Scotland
   - name: Rentals
@@ -102,27 +103,27 @@ service:
 
   - title: BIC Rallye Club
     images:
-    - images/service-3.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    - images/BICRallyeClub.png
+    content: Join the Because I Can Rallye Club and have a voice in shaping off-road riding in Scotland.
     button:
       enable: true
       label: More info...
       link: "#"
 
+testimonials:
+  enable: true
+  title: Experience the best service with us
+
 screenshot:
   enable: true
-  title: Experience the best <br> workflow with us
+  title: Experience the best service with us
   image: images/screenshot.svg
+  
 call_to_action:
   enable: true
-  title: Ready to get started?
-  image: images/cta.svg
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-    eget amet, tempus eu at consecttur.
+  title: How can we help?
+  image: images/help.jpeg
+  content: Call us or email us if we can help you with any motorcycle related queries.
   button:
     enable: true
     label: Contact Us

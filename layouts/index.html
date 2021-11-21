@@ -103,8 +103,10 @@
 {{ end }}
 <!-- /service -->
 
+{{- partial "testimonials.html" . }}
+
 <!-- screenshot -->
-{{ with .Params.screenshot }}
+<!-- {{ with .Params.screenshot }}
 {{ if .enable }}
 <section class="section pb-0">
   <div class="container">
@@ -117,7 +119,7 @@
   {{ with .image }} <img src="{{ . | relURL }}" alt="" class="img-fluid w-100">{{ end }}
 </section>
 {{ end }}
-{{ end }}
+{{ end }} -->
 <!-- /screenshot -->
 
 <!-- call to action -->
