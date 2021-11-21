@@ -1,0 +1,55 @@
+[[footer_left]]
+name = "About Us"
+url = "#"
+[[footer_left]]
+name = "Quick Start"
+url = "#"
+[[footer_left]]
+name = "Pricing"
+url = "pricing"
+[[footer_middle]]
+name = "Pricing"
+url = "pricing"
+[[footer_middle]]
+name = "Platform"
+url = "#"
+[[footer_middle]]
+name = "Features"
+url = "#"
+[[footer_right]]
+name = "Privacy Policy"
+url = "privacy-policy"
+[[footer_right]]
+name = "Terms & Conditions"
+url = "terms-conditions"
+[[footer_right]]
+name = "FAQ"
+url = "faq"
+[[main]]
+name = "tours"
+url = "https://rentamotorcycle.co.uk"
+weight = "1"
+[[main]]
+name = "rentals"
+url = "https://rentamotorcycle.co.uk/rental-bike-selection/"
+weight = "2"
+[[main]]
+name = "training"
+url = "https://motorradtraining.co.uk"
+weight = "3"
+[[main]]
+name = "bic rallye club"
+url = "/bicrallyeclub"
+weight = 4
+[[main]]
+name = "Contact"
+url = "contact"
+weight = 5
+[[main]]
+name = "Blog"
+url = "blog"
+weight = "6"
+[[main]]
+name = "Pricing"
+url = "pricing"
+weight = "7"

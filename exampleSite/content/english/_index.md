@@ -2,11 +2,10 @@
 banner:
   title: MotoJoe is all about having fun with motorcycles
   image: images/banner-art.svg
-  content: We can help you take your first steps into motorcycling with our training. We can take you on adventures in Scotland and beyond. We can take you off the   beaten track and, indeed, the road, for off-road experiences.<br/><br/>
-
-    <strong>Our ethos is to support and inspire each and every customer.</strong><br/><br/>
-
-    From helping you gain the skills and experience to get the most out of your time on a motorcycle to sharing our passion and enthusiasm for touring Scotland (and beyond!) by motorcycle.
+  content: We can take you on adventures in Scotland and beyond.<br/><br/> 
+    We can take you off the beaten track and, indeed, the road, for off-road experiences.<br/><br/>
+    We can help you take your first steps into motorcycling with our training.<br/><br/>
+    <strong>Our ethos is to support and inspire each and every customer.</strong><br/><br/>From helping you gain the skills and experience to get the most out of your time on a motorcycle to sharing our passion and enthusiasm for touring Scotland by motorcycle.
   button:
     enable: true
     label: Contact Us
@@ -37,22 +36,6 @@ feature:
 service:
   enable: true
   service_item:
-  - title: MotoJoe
-    images:
-    - images/service-1.png
-    - images/service-2.png
-    - images/service-3.png
-    content: <strong>MotoJoe is all about having fun with motorcycles.</strong><br/><br/>
-
-              We can help you take your first steps into motorcycling with our training. We can take you on adventures in Scotland and beyond. We can take you off the beaten track and, indeed, the road, for off-road experiences.<br/><br/>
-
-              <strong>Our ethos is to support and inspire each and every customer.</strong><br/><br/>
-
-              From helping you gain the skills and experience to get the most out of your time on a motorcycle to sharing our passion and enthusiasm for touring Scotland (and beyond!) by motorcycle.
-    button:
-      enable: true
-      label: More info...
-      link: "#"
 
   - title: Tours
     images:

@@ -1,3 +1,12 @@
+baseURL = "http://motojoes.netlify.com/"
+disqusShortname = ""
+googleAnalytics = ""
+paginate = "3"
+summaryLength = "15"
+title = "MotoJoe"
+[markup.goldmark.renderer]
+unsafe = true
+
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]

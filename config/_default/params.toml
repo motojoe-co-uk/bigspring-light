@@ -1,0 +1,27 @@
+author = "Martin Williamson"
+blogCategoryType = "category"
+contact_form_action = "#"
+description = "This is meta description"
+image = "images/motojoe.svg"
+logo = "images/motojoe.svg"
+logo_width = "150px"
+[cookies]
+button = "I Accept"
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+enable = true
+expire_days = 2
+[navigation_button]
+enable = false
+label = "Get Started"
+link = "contact"
+[preloader]
+enable = false
+preloader = ""
+[[social]]
+icon = "fab fa-instagram"
+link = "#motojoe.co.uk"
+title = "instagram"
+[[social]]
+icon = "fab fa-facebook"
+link = "#motojoe.co.uk"
+title = "facebook"
