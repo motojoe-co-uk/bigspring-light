@@ -16,10 +16,10 @@ feature:
   title: 
   feature_item:
   - name: Guided Tours
-    icon: fas fa-map-signs
+    icon: fas fa-map-marked-alt
     content: Guided and unguided tours of Scotland
   - name: Unguided Tours
-    icon: fas fa-map-signs
+    icon: fas fa-route
     content: Guided and unguided tours of Scotland
   - name: Rentals
     icon: fas fa-motorcycle
@@ -118,7 +118,7 @@ screenshot:
   enable: true
   title: Experience the best service with us
   image: images/screenshot.svg
-  
+
 call_to_action:
   enable: true
   title: How can we help?

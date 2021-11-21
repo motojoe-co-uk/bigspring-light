@@ -17,16 +17,12 @@ link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontaweso
 link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
 [[params.plugins.css]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css"
-[[params.plugins.css]]
-link = "plugins/carousel/carousel.css"
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.slim.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "plugins/carousel/carousel.js"
 [params.variables]
 black = "#000"
 body_color = "#fff"

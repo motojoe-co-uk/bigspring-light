@@ -1,12 +1,5 @@
 {{ if .Params.testimonials.enable }}
 
-<!-- <section class="section bg-light">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center">
-        <h2 class="section-title">{{ .Params.testimonials.title | markdownify }}</h2>
-      </div> -->
-
 <section class="section testimonials" id="testimonial">
   <div class="container">
     <div class="row justify-content-center">
@@ -15,7 +8,6 @@
 
         <div class="product-slider">
           {{ range (where .Site.RegularPages "Section" "testimonials") }}
-
           <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
             <div class="testimonial-block">
               <i class="fas fa-quote-left"></i>
@@ -27,7 +19,6 @@
             </div>
             <a href="{{ .Permalink }}" class="btn btn-main btn-main-sm">{{ i18n "read_more" }}</a>
           </div>
-
           {{ end }}
         </div>
       </div>
