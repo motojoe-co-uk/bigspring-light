@@ -14,7 +14,10 @@ feature:
   enable: true
   title: 
   feature_item:
-  - name: Tours
+  - name: Unguided Tours
+    icon: fas fa-map-signs
+    content: Guided and unguided tours of Scotland
+  - name: Guided Tours
     icon: fas fa-map-signs
     content: Guided and unguided tours of Scotland
   - name: Rentals

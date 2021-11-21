@@ -28,28 +28,28 @@ url = "faq"
 [[main]]
 name = "tours"
 url = "https://rentamotorcycle.co.uk"
-weight = "1"
+weight = 1
 [[main]]
 name = "rentals"
 url = "https://rentamotorcycle.co.uk/rental-bike-selection/"
-weight = "2"
+weight = 2
 [[main]]
 name = "training"
 url = "https://motorradtraining.co.uk"
-weight = "3"
+weight = 3
 [[main]]
 name = "bic rallye club"
 url = "/bicrallyeclub"
 weight = 4
 [[main]]
-name = "Contact"
+name = "contact"
 url = "contact"
-weight = 5
+weight = 7
 [[main]]
-name = "Blog"
+name = "blog"
 url = "blog"
-weight = "6"
-[[main]]
-name = "Pricing"
-url = "pricing"
-weight = "7"
+weight = 6
+#[[main]]
+#name = "Pricing"
+#url = "pricing"
+#weight = 7
