@@ -17,16 +17,16 @@ feature:
   feature_item:
   - name: Guided Tours
     icon: fas fa-map-marked-alt
-    content: Guided and unguided tours of Scotland
+    content: Guided and unguided tours of Scotland<br/><br/>
   - name: Unguided Tours
     icon: fas fa-route
-    content: Guided and unguided tours of Scotland
+    content: Guided and unguided tours of Scotland<br/><br/>
   - name: Rentals
     icon: fas fa-motorcycle
-    content: The latest models from the BMW range
+    content: The latest models from the BMW range<br/><br/>
   - name: On-road training
     icon: fas fa-road
-    content: CBT / DAS and ERS Training
+    content: CBT / DAS and ERS Training<br/><br/>
   - name: Off-road training
     icon: fas fa-tree
     content: Introductions to off-road riding to full days off-road
