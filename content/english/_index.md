@@ -95,7 +95,7 @@ service:
     - images/off-road/image_4.jpg
     - images/off-road/image_5.jpg
     content: From an introduction to off-road riding on a BMW R 1200 GS to full days off-road and organised trips.<br/><br/>
-      Hire one of our BMW R 1200 GS off-road prepared bikes or join us on your own bike on one of our Foreest Trail days.
+      Hire one of our BMW R 1200 GS off-road prepared bikes or join us on your own bike on one of our Forest Trail days.
     button:
       enable: true
       label: More info...
