@@ -1,7 +1,7 @@
 [en]
 contentDir = "content/english"
 copyright = "© MotoJoe.co.uk 2021"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+footer_content = "MotoJoe is all about having fun with motorcycles.<br/>Our ethos is to support and inspire each and every customer."
 footer_menu_left = "Company"
 footer_menu_middle = "Product"
 footer_menu_right = "Support"
@@ -11,11 +11,11 @@ weight = 1
 
 [de]
 contentDir = "content/deutsch"
-copyright = "Design von [Themefisher](https://themefisher.com/) Entwickelt von [Gethugothemes](https://gethugothemes.com/)"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+copyright = "© MotoJoe.co.uk 2021"
+footer_content = "MotoJoe is all about having fun with motorcycles.<br/>Our ethos is to support and inspire each and every customer."
 footer_menu_left = "Firma"
 footer_menu_middle = "Produkte"
 footer_menu_right = "Support"
 languageName = "De"
-title = "Bigspring Hugo"
+title = "MotoJoe"
 weight = 2

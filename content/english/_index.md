@@ -81,7 +81,7 @@ service:
     content: <ul><li>Compulsory Basic Training (CBT)</li>
       <li>Direct Access (DAS)</li>
       <li>Enhanced Rider Scheme Training (ERS)</li></ul><br/>
-      <strong>No matter what you need, we've got it.</strong>
+      <strong>Whether you wish to get your first motorcycle licence or improve your skills, we can help.</strong>
     button:
       enable: true
       label: More info...
