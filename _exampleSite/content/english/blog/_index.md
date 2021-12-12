@@ -2,6 +2,6 @@
 title: "Latest News"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "MotoJoe Blog Post"
 draft: false
 ---

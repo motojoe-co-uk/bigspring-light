@@ -6,7 +6,7 @@ image: "images/blog/post-1.jpg"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "This is meta description"
+description: "MotoJoe Blog Post"
 # post draft
 draft: false
 ---

@@ -3,21 +3,6 @@ hero:
   title: 
   images: 
     - item:
-      heading: on-road training
-      subheading: whatever your training needs
-      image: images/training.png
-      link: https://motojoe.co.uk/training
-    - item:
-      heading: off-road training
-      subheading: "#dirtydemo sessions"
-      image: images/dirty_demo.jpeg
-      link: https://motojoe.co.uk/training
-    - item:
-      heading: off-road experiences
-      subheading: Forest Trails
-      image: images/off-road_training.png
-      link: https://motojoe.co.uk/training
-    - item:
       heading: guided tours
       subheading: spectacular tours of scotland
       image: images/guided_tour.png
@@ -32,6 +17,21 @@ hero:
       subheading: latest model BMWs
       image: images/rentals.jpeg
       link: https://rentamotorcycle.co.uk
+    - item:
+      heading: on-road training
+      subheading: whatever your training needs
+      image: images/training.png
+      link: https://motojoe.co.uk/training
+    - item:
+      heading: off-road training
+      subheading: "#dirtydemo sessions"
+      image: images/dirty_demo.jpeg
+      link: https://motojoe.co.uk/training
+    - item:
+      heading: off-road experiences
+      subheading: Forest Trails
+      image: images/off-road_training.png
+      link: https://motojoe.co.uk/training
   
 banner:
   title: MotoJoe is all about having fun with motorcycles
@@ -135,14 +135,14 @@ service:
       label: More info...
       link: "#"
 
-  - title: BIC Rallye Club
+  - title: BIC Rally Club
     images:
-    - images/BICRallyeClub.png
-    content: Join the Because I Can Rallye Club and have a voice in shaping off-road riding in Scotland.
+    - images/bic_rally_club.png
+    content: Join the #BecauseICan Rally Club and have a voice in shaping off-road riding in Scotland.
     button:
       enable: true
       label: More info...
-      link: "#"
+      link: "https://bicrally.netlify.app"
 
 testimonials:
   enable: true

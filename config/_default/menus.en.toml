@@ -38,8 +38,8 @@ name = "training"
 url = "https://motorradtraining.co.uk"
 weight = 3
 [[main]]
-name = "bic rallye club"
-url = "/bicrallyeclub"
+name = "bic rally club"
+url = "/bicrallyclub"
 weight = 4
 [[main]]
 name = "contact"

@@ -50,6 +50,6 @@ name = "Blog"
 url = "blog"
 weight = "6"
 [[main]]
-name = "bic rallye club"
-url = "/bicrallyeclub"
+name = "bic rally club"
+url = "/bicrallyclub"
 weight = 5

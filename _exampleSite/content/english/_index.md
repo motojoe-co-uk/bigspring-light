@@ -74,7 +74,7 @@ service:
       label: More info...
       link: "#"
 
-  - title: BIC Rallye Club
+  - title: BIC Rally Club
     images:
     - images/service-3.png
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
