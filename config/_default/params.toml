@@ -19,9 +19,9 @@ enable = false
 preloader = ""
 [[social]]
 icon = "fab fa-instagram"
-link = "#motojoe.co.uk"
+link = "https://instagram.com/motojoe.co.uk"
 title = "instagram"
 [[social]]
 icon = "fab fa-facebook"
-link = "#motojoe.co.uk"
+link = "https://facebook.com/motojoe.co.uk"
 title = "facebook"
