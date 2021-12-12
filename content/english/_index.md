@@ -1,4 +1,38 @@
   ---
+hero:
+  title: 
+  images: 
+    - item:
+      heading: on-road training
+      subheading: whatever your training needs
+      image: images/training.png
+      link: https://motojoe.co.uk/training
+    - item:
+      heading: off-road training
+      subheading: "#dirtydemo sessions"
+      image: images/dirty_demo.jpeg
+      link: https://motojoe.co.uk/training
+    - item:
+      heading: off-road experiences
+      subheading: Forest Trails
+      image: images/off-road_training.png
+      link: https://motojoe.co.uk/training
+    - item:
+      heading: guided tours
+      subheading: spectacular tours of scotland
+      image: images/guided_tour.png
+      link: https://rentamotorcycle.co.uk
+    - item:
+      heading: unguided tours
+      subheading: tour at your own pace
+      image: images/unguided_tours.jpeg
+      link: https://rentamotorcycle.co.uk
+    - item:
+      heading: rental
+      subheading: latest model BMWs
+      image: images/rentals.jpeg
+      link: https://rentamotorcycle.co.uk
+  
 banner:
   title: MotoJoe is all about having fun with motorcycles
   image: images/motojoe.svg

@@ -13,7 +13,9 @@
   top: 0;
   position: sticky;
   position: -webkit-sticky;
-  background-color: #66BB6A;
+  // background-color: #66BB6A;
+  background-color: #fff;
+  border-bottom: 1px solid grey;
   z-index: 100;
 }
 
@@ -65,3 +67,41 @@
 // .cta {
 //   padding-top: 0px
 // }
+
+.hero {
+  padding: 0 !important;
+  object-fit: cover;
+  object-position: 75% 50%;
+  overflow: hidden;}
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.slick-slide {
+  position: relative;
+  vertical-align: middle;
+}
+
+.slick-slide > .info {
+  color: white;
+  position: absolute;
+  width: 100% !important;
+  // height: 100%;
+  // top: 0;
+  // left: 0;
+  // line-height: 100vh;
+  text-align: center; 
+  z-index: 10;
+}
+
+.outline {
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      1px 1px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
