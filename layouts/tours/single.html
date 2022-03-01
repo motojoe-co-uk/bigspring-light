@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+
+    <div class="row">
+        <!-- product image slider -->
+        <div class="col">
+          {{ $img := resources.Get .Params.image }}
+          <div data-image="{{ $img | absURL }}">
+            <img class="img-fluid w-100 lazyload" src="{{ $img | absURL }}" alt="product-image">
+          </div>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+          <h1 class="mb-4">{{ .Title }}</h1>
+          <h4><strong>Days: </strong>{{ .Params.Days }}</h4>
+          <p class="price py-4">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
+            {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
+          </p>
+          <a href="mailto:enquiries@rentamotorcycle.co.uk?subject=Booking Enquiry"><button class="btn btn-main mb-5">Booking Enquiry</button></a>
+          <!-- <a href="/booking-enquiry"><button class="btn btn-main mb-5">Booking Enquiry</button></a> -->
+          <div class="content">{{.Content}}</div>
+          <br/>
+          <a href="mailto:enquiries@rentamotorcycle.co.uk?subject=Booking Enquiry"><button class="btn btn-main mb-5">Booking Enquiry</button></a>
+        </div>
+    </div>
+
+  </div>
+</section>
+
+{{ end }}

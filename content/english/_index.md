@@ -29,7 +29,7 @@ hero:
       link: https://motojoe.co.uk/training
     - item:
       heading: off-road experiences
-      subheading: Forest Trails
+      subheading: forest trails
       image: images/off-road_training.png
       link: https://motojoe.co.uk/training
   
@@ -138,7 +138,7 @@ service:
   - title: BIC Rally Club
     images:
     - images/bic_rally_club.png
-    content: Join the #BecauseICan Rally Club and have a voice in shaping off-road riding in Scotland.
+    content: "Join the #BecauseICan Rally Club and have a voice in shaping off-road riding in Scotland."
     button:
       enable: true
       label: More info...

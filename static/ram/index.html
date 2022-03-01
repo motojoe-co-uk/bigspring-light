@@ -1,0 +1,260 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rentals</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="/ram/js/modernizr-2.8.3.min.js"></script>
+    <script src="/ram/js/xlsx.full.min.js"></script>
+    <script src="/ram/js/moment.min.js"></script>
+    <script src="/ram/js/d3.v4.min.js"></script>
+    <!-- <script src="js/d3-scale.v1.min.js"></script> -->
+    <style>
+    html {
+        font-size: 0.7em;
+        -webkit-print-color-adjust: exact;
+    }
+
+    div.day {
+        display: block;
+        border-bottom: 1px solid grey;
+        clear: both;
+        overflow: auto;
+    }
+
+    div.date {
+        width: 28px;
+        height: 100%;
+        float: left;
+        text-align: center;
+        text-transform: lowercase;
+        font-variant: small-caps;
+    }
+
+    .weekend {
+        background-color: #eee;
+    }
+
+    div.entry {
+        margin: 2px;
+        padding: 2px;
+        float: left;
+        /*border-radius: 4px;*/
+    }
+
+    div.reg {
+        width: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1px;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        padding-left: 4px;
+        padding-right: 4px;
+        border: 1px solid grey;
+        text-transform: uppercase;
+        box-shadow: black 1px 1px 1px;
+        border-radius: 4px;
+    }
+
+    .false {
+        background: red;
+    }
+
+    .true {
+        background: green;
+    }
+
+    .tour {
+        background: yellow;
+    }
+
+    .reg.tour {
+        border: 2px solid yellow;
+    }
+
+
+    div.entry.in>div.reg {
+        background: red;
+        color: white;
+    }
+
+    div.entry.out>div.reg {
+        background: green;
+        color: white;
+    }
+
+    div.regx {
+        padding: 10px;
+    }
+
+    div.detail {
+        display: none;
+    }
+
+    div.name,
+    div.machine,
+    div.startDate,
+    div.endDate,
+    div.mileage,
+    div.nextout {
+        font-size: 0.8em;
+    }
+
+
+    div.startDate,
+    div.endDate {
+        color: #888;
+    }
+
+    div.startDate.out {
+        font-weight: bold !important;
+        font-size: 0.9em;
+        color: black !important;
+    }
+
+    div.endDate.in {
+        font-weight: bold !important;
+        font-size: 0.9em;
+        color: black !important;
+    }
+
+    div.bike {
+        width: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.tBag {
+        clear: both;
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 6px;
+        height: 10px;
+        margin-left: 11px;
+    }
+
+    div.pannier {
+        float: left;
+        border: 1px solid black;
+        width: 6px;
+        height: 14px;
+        border-radius: 2px;
+    }
+
+    div.tBox {
+        float: left;
+        border: 1px solid black;
+        border-radius: 2px;
+        width: 10px;
+        height: 10px;
+        margin: 1px;
+        margin-top: 10px;
+    }
+
+    div.nav,
+    div.bar {
+        float: left;
+        border: 1px solid black;
+        border-radius: 1px;
+        width: 8px;
+        margin-top: 10px;
+    }
+
+    div.nav {
+        width: 8px;
+        height: 6px;
+        /*background: blue;*/
+        border-radius: 2px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    div.kit {
+        text-align: center;
+    }
+
+    div.kit img {
+        padding-top: 2px !important;
+    }
+
+    .arc text {
+        font: 10px sans-serif;
+        text-anchor: middle;
+    }
+
+    .arc path {
+        stroke: #fff;
+    }
+
+    .legend {
+        font-size: 10px;
+    }
+
+    rect {
+        stroke-width: 2;
+    }
+
+    .amber {
+        font-size: 1.1em;
+        font-weight: bold;
+        background: gold;
+        color: black;
+        text-align: center;
+    }
+
+    .red {
+        font-size: 1.2em;
+        font-weight: bold;
+        background: red;
+        color: white;
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+    <script src="/ram/js/jquery-1.12.0.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="/ram/js/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <button id="callGraphButton" type="button" class="btn btn-primary" onclick="callGraphApi()">Sign In</button>
+    <h1>Rentals</h1>
+    <div id="rentals"></div>
+    <div id="errorMessage" class="text-danger"></div>
+    <div class="hidden">
+        <h3>Graph API Call Response</h3>
+        <pre class="well" id="graphResponse"></pre>
+    </div>
+    <div class="hidden">
+        <h3>Access Token</h3>
+        <pre class="well" id="accessToken"></pre>
+    </div>
+    <div class="hidden">
+        <h3>ID Token Claims</h3>
+        <pre class="well" id="userInfo"></pre>
+    </div>
+    <div style="clear: both; margin-top: 10px;">
+        <button id="signOutButton" type="button" class="btn btn-primary hidden" onclick="signOut()">Sign out</button>
+    </div>
+    <!-- This app uses cdn to reference msal.js (recommended). 
+     You can also download it from: https://github.com/AzureAD/microsoft-authentication-library-for-js -->
+    <script src="https://secure.aadcdn.microsoftonline-p.com/lib/0.1.1/js/msal.min.js"></script>
+    <!-- <script src="js/msal.js"></script> -->
+    <!-- The 'bluebird' and 'fetch' references below are required if you need to run this application on Internet Explorer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.4/bluebird.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script type="text/javascript" src="/ram/js/msalconfig.js"></script>
+    <script type="text/javascript" src="/ram/js/app.js"></script>
+</body>
+
+</html>
