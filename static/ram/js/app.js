@@ -1,4 +1,4 @@
-const debug = false;
+const debug = true;
 const SERVICE_WARNING = 1000;
 const SERVICE_ALARM = 500;
 const TURNAROUND_WARNING = 6;
