@@ -27,15 +27,15 @@ name = "FAQ"
 url = "faq"
 [[main]]
 name = "tours"
-url = "https://rentamotorcycle.co.uk"
+url = "/tours"
 weight = 1
 [[main]]
-name = "rentals"
-url = "https://rentamotorcycle.co.uk/rental-bike-selection/"
+name = "rental"
+url = "/rental"
 weight = 2
 [[main]]
 name = "training"
-url = "https://motorradtraining.co.uk"
+url = "/training"
 weight = 3
 [[main]]
 name = "bic rally club"

@@ -10,7 +10,7 @@ title = "Bigspring Hugo"
 weight = 2
 [en]
 contentDir = "content/english"
-copyright = "© MotoJoe.co.uk 2021"
+copyright = "© MotoJoe.co.uk 2022"
 footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
 footer_menu_left = "Company"
 footer_menu_middle = "Product"

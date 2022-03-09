@@ -1,15 +1,20 @@
 ---
 title: Glenelg - 9-11 September 2022
 date: 2021-09-30T05:22:16.000+00:00
-image: "/img/tours/Glenelg Sep 2022.gif"
+image: /images/tours/Glenelg Sep 2022.gif
+
 description: this is meta description
-price: '245.00'
-days: "3"
+
+price: 245.00
+days: 3
+
 menu:
   main:
     name: Glenelg - September 2022
     parent: tours
     weight: 5
+
+enquirebutton: true
 
 ---
 Join us for a 2 night / 3 day trip to what must be our favourite Inn in Scotland (perhaps because of the excellent food – not to mention the spectacular location!), whilst taking a day to enjoy and explore the beautiful Isle of Skye.

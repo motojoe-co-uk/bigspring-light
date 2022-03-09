@@ -35,3 +35,6 @@ primary_font_type = "sans-serif"
 text_color = "#555"
 text_color_dark = "#222"
 white = "#fff"
+
+# currency
+currency = "£"

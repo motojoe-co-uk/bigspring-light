@@ -12,6 +12,7 @@ $lightgrey: {{.lightgrey | default "lightgrey"}};
 
 // Font Variables
 $primary-font: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .primary_font | default "Lato"}}', {{.primary_font_type | default "sans-serif"}};
+$secondary-font: 'Arial', sans-serif;
 $icon-font: '{{.icon_font | default "Font Awesome 5 Free"}}';
 {{ end }}
 
@@ -28,3 +29,4 @@ $icon-font: '{{.icon_font | default "Font Awesome 5 Free"}}';
 @import 'templates/main.scss';
 
 @import 'custom';
+

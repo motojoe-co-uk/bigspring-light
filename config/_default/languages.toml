@@ -1,6 +1,6 @@
 [en]
 contentDir = "content/english"
-copyright = "© MotoJoe.co.uk 2021"
+copyright = "© MotoJoe.co.uk 2022"
 footer_content = "MotoJoe is all about having fun with motorcycles.<br/>Our ethos is to support and inspire each and every customer."
 footer_menu_left = "Company"
 footer_menu_middle = "Product"
@@ -9,13 +9,13 @@ languageName = "En"
 title = "MotoJoe"
 weight = 1
 
-[de]
-contentDir = "content/deutsch"
-copyright = "© MotoJoe.co.uk 2021"
-footer_content = "MotoJoe is all about having fun with motorcycles.<br/>Our ethos is to support and inspire each and every customer."
-footer_menu_left = "Firma"
-footer_menu_middle = "Produkte"
-footer_menu_right = "Support"
-languageName = "De"
-title = "MotoJoe"
-weight = 2
+#[de]
+#contentDir = "content/deutsch"
+#copyright = "© MotoJoe.co.uk 2022"
+#footer_content = "MotoJoe is all about having fun with motorcycles.<br/>Our ethos is to support and inspire each and every customer."
+#footer_menu_left = "Firma"
+#footer_menu_middle = "Produkte"
+#footer_menu_right = "Support"
+#languageName = "De"
+#title = "MotoJoe"
+#weight = 2
