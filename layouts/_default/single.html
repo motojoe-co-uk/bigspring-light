@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+<p>default template</p>
 <!-- checking blog -->
 {{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}}
 

@@ -1,18 +1,27 @@
 ---
-title: "Isle of Man TT - 7-12 June 2022"
+title: Isle of Man TT - 7-12 June 2022
 date: 2019-10-17T11:22:16+06:00
-image: "/img/tours/isle-of-man-tt-2022.gif"
+image: /images/tours/Isle of Man TT 2022.gif
 
 # meta description
-description : "this is meta description"
+description : Isle of Man TT - 7-12 June 2022
 
 # product Price
-price: "2149.00"
+price: 2149.00
 
 # product variation
 days: 6
 
 draft: false
+
+menu:
+  main:
+    name: Isle of Man - June 2022
+    parent: tours
+    weight: 3
+
+enquirebutton: true
+
 ---
 
 ### The ultimate ‘must-see’ event for motorsport fans

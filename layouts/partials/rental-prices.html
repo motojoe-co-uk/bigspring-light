@@ -1,0 +1,261 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="content">
+                    <h2>{{ .Page.Title }}</h2>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <div class="row no-gutters font-weight-bold border-bottom">
+            <div class="col-6">URBAN</div>
+            <div class="col-2 align-self-center text-center">DAILY</div>
+            <!-- <div class="col-2 align-self-center text-center">WEEKEND</div> -->
+            <div class="col-2 align-self-center text-center">WEEK</div>
+            <div class="col-2 align-self-center text-center">EXCESS</div>
+        </div>
+
+        {{ $c400gt := resources.Get "/img/bikes/c400gt.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $c400gt.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">C 400 X/GT</div>
+            <div class="col-2 align-self-center text-center">£200</div>
+            <!-- <div class="col-2 align-self-center text-center">£530</div> -->
+            <div class="col-2 align-self-center text-center">£1,400</div>
+            <div class="col-2 align-self-center text-center">£1,500</div>
+        </div>
+        <br/>
+
+        <div class="row no-gutters font-weight-bold border-bottom">
+            <div class="col-6">SPORT</div>
+            <div class="col-2 align-self-center text-center">DAILY</div>
+            <!-- <div class="col-2 align-self-center text-center">WEEKEND</div> -->
+            <div class="col-2 align-self-center text-center">WEEK</div>
+            <div class="col-2 align-self-center text-center">EXCESS</div>
+        </div>
+
+        {{ $r1250rs := resources.Get "/img/bikes/r1250rs.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $r1250rs.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">R 1250 RS</div>
+            <div class="col-2 align-self-center text-center">£265</div>
+            <!-- <div class="col-2 align-self-center text-center">£530</div> -->
+            <div class="col-2 align-self-center text-center">£1,855</div>
+            <div class="col-2 align-self-center text-center">£1,800</div>
+        </div>
+        <br/>
+
+        <div class="row no-gutters font-weight-bold border-bottom">
+            <div class="col-6">TOUR</div>
+            <div class="col-2 align-self-center text-center">DAILY</div>
+            <!-- <div class="col-2 align-self-center text-center">WEEKEND</div> -->
+            <div class="col-2 align-self-center text-center">WEEK</div>
+            <div class="col-2 align-self-center text-center">EXCESS</div>
+        </div>
+
+        {{ $r1250rt := resources.Get "/img/bikes/r1250rt.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $r1250rt.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">R 1250 RT</div>
+            <div class="col-2 align-self-center text-center">£290</div>
+            <!-- <div class="col-2 align-self-center text-center">£580</div> -->
+            <div class="col-2 align-self-center text-center">£1,563</div>
+            <div class="col-2 align-self-center text-center">£2,000</div>
+        </div>
+
+        {{ $k1600gtl := resources.Get "/img/bikes/k1600gtl.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $k1600gtl.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">K 1600 GTL/LE</div>
+            <div class="col-2 align-self-center text-center">£300</div>
+            <!-- <div class="col-2 align-self-center text-center">£600</div> -->
+            <div class="col-2 align-self-center text-center">£2,100</div>
+            <div class="col-2 align-self-center text-center">£2,500</div>
+        </div>
+        <br/>
+
+        <div class="row no-gutters font-weight-bold border-bottom">
+            <div class="col-6">ROADSTER</div>
+            <div class="col-2 align-self-center text-center">DAILY</div>
+            <!-- <div class="col-2 align-self-center text-center">WEEKEND</div> -->
+            <div class="col-2 align-self-center text-center">WEEK</div>
+            <div class="col-2 align-self-center text-center">EXCESS</div>
+        </div>
+
+        {{ $g310r := resources.Get "/img/bikes/g310r.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $g310r.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">G 310 R</div>
+            <div class="col-2 align-self-center text-center">£200</div>
+            <!-- <div class="col-2 align-self-center text-center">£400</div> -->
+            <div class="col-2 align-self-center text-center">£1,400</div>
+            <div class="col-2 align-self-center text-center">£1,500</div>
+        </div>
+
+        {{ $f900r := resources.Get "/img/bikes/f900r.jpg" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $f900r.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">F 900 R</div>
+            <div class="col-2 align-self-center text-center">£210</div>
+            <!-- <div class="col-2 align-self-center text-center">£420</div> -->
+            <div class="col-2 align-self-center text-center">£1,470</div>
+            <div class="col-2 align-self-center text-center">£1,500</div>
+        </div>
+
+        {{ $s1000r := resources.Get "/img/bikes/s1000r.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $s1000r.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">S 1000 R</div>
+            <div class="col-2 align-self-center text-center">£270</div>
+            <!-- <div class="col-2 align-self-center text-center">£540</div> -->
+            <div class="col-2 align-self-center text-center">£1,890</div>
+            <div class="col-2 align-self-center text-center">£2,000</div>
+        </div>
+
+        {{ $r1250r := resources.Get "/img/bikes/r1250r.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $r1250r.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">R 1250 R</div>
+            <div class="col-2 align-self-center text-center">£245</div>
+            <!-- <div class="col-2 align-self-center text-center">£490</div> -->
+            <div class="col-2 align-self-center text-center">£1,715</div>
+            <div class="col-2 align-self-center text-center">£1,500</div>
+        </div>
+        <br/>
+
+        <div class="row no-gutters font-weight-bold border-bottom">
+            <div class="col-6">HERITAGE</div>
+            <div class="col-2 align-self-center text-center">DAILY</div>
+            <!-- <div class="col-2 align-self-center text-center">WEEKEND</div> -->
+            <div class="col-2 align-self-center text-center">WEEK</div>
+            <div class="col-2 align-self-center text-center">EXCESS</div>
+        </div>
+
+        {{ $rnineT := resources.Get "/img/bikes/rnineT.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $rnineT.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">R nineT (and derivatives)</div>
+            <div class="col-2 align-self-center text-center">£220</div>
+            <!-- <div class="col-2 align-self-center text-center">£440</div> -->
+            <div class="col-2 align-self-center text-center">£1,540</div>
+            <div class="col-2 align-self-center text-center">£1,500</div>
+        </div>
+        <br/>
+
+        <div class="row no-gutters font-weight-bold border-bottom">
+            <div class="col-6">ADVENTURE</div>
+            <div class="col-2 align-self-center text-center">DAILY</div>
+            <!-- <div class="col-2 align-self-center text-center">WEEKEND</div> -->
+            <div class="col-2 align-self-center text-center">WEEK</div>
+            <div class="col-2 align-self-center text-center">EXCESS</div>
+        </div>
+
+        {{ $g310gs := resources.Get "/img/bikes/g310gs.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $g310gs.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">G 310 GS</div>
+            <div class="col-2 align-self-center text-center">£200</div>
+            <!-- <div class="col-2 align-self-center text-center">£400</div> -->
+            <div class="col-2 align-self-center text-center">£1,400</div>
+            <div class="col-2 align-self-center text-center">£1,500</div>
+        </div>
+
+        {{ $f750gs := resources.Get "/img/bikes/f750gs.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $f750gs.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">F 750 GS</div>
+            <div class="col-2 align-self-center text-center">£210</div>
+            <!-- <div class="col-2 align-self-center text-center">£420</div> -->
+            <div class="col-2 align-self-center text-center">£1,470</div>
+            <div class="col-2 align-self-center text-center">£1,500</div>
+        </div>
+
+        {{ $f850gs := resources.Get "/img/bikes/f850gs.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $f850gs.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">F 850 GS</div>
+            <div class="col-2 align-self-center text-center">£210</div>
+            <!-- <div class="col-2 align-self-center text-center">£420</div> -->
+            <div class="col-2 align-self-center text-center">£1,470</div>
+            <div class="col-2 align-self-center text-center">£1,500</div>
+        </div>
+
+        {{ $f900xr := resources.Get "/img/bikes/f900xr.jpg" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $f900xr.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">F 900 XR</div>
+            <div class="col-2 align-self-center text-center">£215</div>
+            <!-- <div class="col-2 align-self-center text-center">£430</div> -->
+            <div class="col-2 align-self-center text-center">£1,505</div>
+            <div class="col-2 align-self-center text-center">£1,500</div>
+        </div>
+
+        {{ $s1000xr := resources.Get "/img/bikes/s1000xr.jpg" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $s1000xr.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">S 1000 XR</div>
+            <div class="col-2 align-self-center text-center">£265</div>
+            <!-- <div class="col-2 align-self-center text-center">£530</div> -->
+            <div class="col-2 align-self-center text-center">£1,855</div>
+            <div class="col-2 align-self-center text-center">£1,800</div>
+        </div>
+
+        {{ $r1250gs := resources.Get "/img/bikes/r1250gs.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $r1250gs.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">R 1250 GS</div>
+            <div class="col-2 align-self-center text-center">£280</div>
+            <!-- <div class="col-2 align-self-center text-center">£560</div> -->
+            <div class="col-2 align-self-center text-center">£1,960</div>
+            <div class="col-2 align-self-center text-center">£1,800</div>
+        </div>
+
+        {{ $r1250gsadventure := resources.Get "/img/bikes/r1250gsadventure.png" }}
+        <div class="row no-gutters">
+            <div class="col-3"><img class="img-fluid vw-100 lazyload" data-src="{{ $r1250gsadventure.Permalink }}"
+                    data-sizes="auto" /></div>
+            <div class="col-3 align-self-center text-center">R 1250 GS Adventure</div>
+            <div class="col-2 align-self-center text-center">£290</div>
+            <!-- <div class="col-2 align-self-center text-center">£580</div> -->
+            <div class="col-2 align-self-center text-center">£2,030</div>
+            <div class="col-2 align-self-center text-center">£1,800</div>
+        </div>
+
+        <div class="row col-12 no-gutters font-weight-bold border-bottom"></div>
+
+        <br/>
+        <br/>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content">
+                    {{ .Page.Content | markdownify }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</section>
+
+<script>console.log("rental prices");</script>

@@ -1,0 +1,233 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content">
+          <h2>{{ .Page.Title }}</h2>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    {{ $urban := resources.Get "/img/bikes/URBANMOBILITY.jpg" }}
+    {{ $sport := resources.Get "/img/bikes/SPORT.jpg" }}
+    {{ $tour := resources.Get "/img/bikes/TOUR.jpg" }}
+    {{ $roadster := resources.Get "/img/bikes/ROADSTER.jpg" }}
+    {{ $heritage := resources.Get "/img/bikes/HERITAGE.jpg" }}
+    {{ $adventure := resources.Get "/img/bikes/ADVENTURE.jpg" }}
+
+    <div class="row no-gutters">
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $urban }}" data-sizes="auto" />
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $sport.Permalink }}" data-sizes="auto" />
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $tour.Permalink }}" data-sizes="auto" />
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $roadster.Permalink }}" data-sizes="auto" />
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $heritage.Permalink }}" data-sizes="auto" />
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $adventure.Permalink }}" data-sizes="auto" />
+      </div>
+    </div>
+
+    <div class="row no-gutters">
+
+      {{ $c400gt := resources.Get "/img/bikes/c400gt.png" }}
+      {{ $r1250rs := resources.Get "/img/bikes/r1250rs.png" }}
+      {{ $r1250rt := resources.Get "/img/bikes/r1250rt.png" }}
+      {{ $g310r := resources.Get "/img/bikes/g310r.png" }}
+      {{ $rninet := resources.Get "/img/bikes/rninet.png" }}
+      {{ $g310gs := resources.Get "/img/bikes/g310gs.png" }}
+
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $c400gt.Permalink }}" data-sizes="auto" />
+        C 400 X/GT
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $r1250rs.Permalink }}" data-sizes="auto" />
+        R 1250 RS
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $r1250rt.Permalink }}" data-sizes="auto" />
+        R 1250 RT
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $g310r.Permalink }}" data-sizes="auto" />
+        K 1600 GTL
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $rninet.Permalink }}" data-sizes="auto" />
+        R nineT
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $g310gs.Permalink }}" data-sizes="auto" />
+        G 310 GS
+      </div>
+
+    </div>
+
+    <div class="row no-gutters">
+      {{ $k1600gtl := resources.Get "/img/bikes/k1600gtl.png" }}
+      {{ $f900r := resources.Get "/img/bikes/f900r.jpg" }}
+      {{ $rninetscrambler := resources.Get "/img/bikes/rninetscrambler.png" }}
+      {{ $f750gs := resources.Get "/img/bikes/f750gs.png" }}
+
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $k1600gtl.Permalink }}" data-sizes="auto" />
+        K 1600 GTL
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $f900r.Permalink }}" data-sizes="auto" />
+        F 900 R
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $rninetscrambler.Permalink }}" data-sizes="auto" />
+        R nineT Scrambler
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $f750gs.Permalink }}" data-sizes="auto" />
+        F 750 GS
+      </div>
+
+    </div>
+
+    <div class="row no-gutters">
+      {{ $s1000r := resources.Get "/img/bikes/s1000r.png" }}
+      {{ $rninetracer := resources.Get "/img/bikes/rninetracer.png" }}
+      {{ $f850gs := resources.Get "/img/bikes/f850gs.png" }}
+
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $s1000r.Permalink }}" data-sizes="auto" />
+        S 1000 R
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $rninetracer.Permalink }}" data-sizes="auto" />
+        R nineT Racer
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $f850gs.Permalink }}" data-sizes="auto" />
+        F 850 GS
+      </div>
+
+    </div>
+
+    <div class="row no-gutters">
+      {{ $r1250r := resources.Get "/img/bikes/r1250r.png" }}
+      {{ $rninetpure := resources.Get "/img/bikes/rninetpure.png" }}
+      {{ $f900xr := resources.Get "/img/bikes/f900xr.jpg" }}
+
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $r1250r.Permalink }}" data-sizes="auto" />
+        R 1250 R
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $rninetpure.Permalink }}" data-sizes="auto" />
+        R nineT Pure
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $f900xr.Permalink }}" data-sizes="auto" />
+        F 900 XR
+      </div>
+
+    </div>
+
+    <div class="row no-gutters">
+      {{ $rnineturbangs := resources.Get "/img/bikes/rnineturbangs.png" }}
+      {{ $s1000xr := resources.Get "/img/bikes/s1000xr.jpg" }}
+
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $rnineturbangs.Permalink }}" data-sizes="auto" />
+        R nineT Urban GS
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $s1000xr.Permalink }}" data-sizes="auto" />
+        S 1000 XR
+      </div>
+
+    </div>
+
+    <div class="row no-gutters">
+      {{ $r1250gs := resources.Get "/img/bikes/r1250gs.png" }}
+
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $r1250gs.Permalink }}" data-sizes="auto" />
+        R 1250 GS
+      </div>
+
+    </div>
+
+    <div class="row no-gutters">
+      {{ $r1250gsadventure := resources.Get "/img/bikes/r1250gsadventure.png" }}
+
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+      </div>
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $r1250gsadventure.Permalink }}" data-sizes="auto" />
+        R 1250 GS Adventure
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="content">
+            {{ .Page.Content | markdownify }}
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>console.log("rental bike selection");</script>

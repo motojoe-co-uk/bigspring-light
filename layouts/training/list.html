@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<!-- hero -->
+{{ with .Params.hero }}
+<!-- <section class="banner"> -->
+  <!-- <div class="container"> -->
+    <!-- <div class="row"> -->
+      <div class="hero col-12 mx-auto text-center">
+        <!-- {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" width="750px">{{end}} -->
+        <div {{if gt (len .images) 1}} class="slider" {{end}}>
+          {{ range .images }}
+          <div>
+            <div class="info">
+              <h3 class="outline">{{ .heading }}</h3>
+              <h4 class="outline">{{ .subheading }}</h4>
+              <!-- <a class="btn btn-primary" href="{{ .link }}">more info</a> -->
+              <!-- <p class="down-arrow">
+                <a class="btn btn-large btn-down-arrow" href="#theend">
+                  <i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i>
+                </a>
+              </p> -->
+            </div>
+            <img src="{{ .image | relURL }}" alt="" class="img-fluid">
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </section> -->
+{{ end }}
+
+<section class="section">
+  <div class="container">
+
+    <!-- <div class="row"> -->
+        <!-- product image slider -->
+        <!-- <div class="col">
+          {{ $img := .Params.image }}
+          <div data-image="{{ $img | absURL }}">
+            <img class="img-fluid w-100 lazyload" src="{{ $img | absURL }}" alt="product-image">
+          </div>
+        </div>
+    </div> -->
+
+    <div class="row">
+      <div class="col">
+          <h1 class="mb-4">{{ .Title }}</h1>
+          <div class="content">{{.Content}}</div>
+    </div>
+
+  </div>
+</section>
+
+{{ end }}

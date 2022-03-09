@@ -43,7 +43,7 @@
         <p class="mb-4">{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <div><a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-primary">{{ .label }}</a></div>
+        <div><a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-main mb-5">{{ .label }}</a></div>
         {{ end }}
         {{ end }}
 
@@ -169,7 +169,7 @@
         {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-primary">{{ .label }}</a>
+        <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-main mb-5">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>

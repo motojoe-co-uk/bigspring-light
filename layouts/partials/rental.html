@@ -1,0 +1,18 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.homepage.rental.enable }}
+{{ with $data.homepage.rental }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 align-self-center text-center text-md-left">
+        <div class="content">
+          <h1 class="mb-4">{{.title | markdownify}}</h1>
+          {{ .content | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

@@ -1,0 +1,371 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.homepage.calculator.enable }}
+{{ with $data.homepage.calculator }}
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 align-self-center text-center text-md-left">
+                <div class="block">
+                    <div class="content">
+                        <h2>{{ .title }}</h2>
+
+                        <div>
+                            <p>Enter the details of your preferred motorcycle, your pick up
+                                date, drop off date and optional extras you require to calculate
+                                the price
+                                of your rental. If you would like us to check availability,
+                                please add your contact details and click on the Check
+                                Availability button below.</p>
+                            <p>Please also let us know if you would like to buy or rent any
+                                clothing in the additional comments. More detail on clothing
+                                available [here](clothing").</p>
+                            <p><em>Please note:</em></p>
+                            <div>
+                                Our rental office is closed every Sunday and Monday. However,
+                                one
+                                particularly wonderful member of our team gives up their days
+                                off
+                                just to meet our rental customers on these days. We therefore
+                                ask
+                                you to note the following regarding collections or returns on a
+                                Sunday or Monday:
+                                <br>
+                                <ul>
+                                    <li>For Sunday collections and returns there will be a
+                                        fee of £25.00 per bike.</li>
+                                    <li>For Monday collections and returns there will be a
+                                        fee of £15.00 per bike.</li>
+                                    <li>We ask you to agree firm collection and/or return
+                                        times at the time of booking. If these times change
+                                        please give us as much notice as possible as you
+                                        risk there being no one here to meet you and
+                                        therefore you will be unable to collect or return
+                                        your motorcycle. Please note that if you do not
+                                        amend your collection or return time and are more
+                                        than 2 hours late for a return or collection on a
+                                        Sunday or a Monday, we may charge, at our
+                                        discretion, an additional fee of £25 per bike.
+                                    </li>
+                                    <li>Riding outside the UK incurs a charge per week, or
+                                        part thereof.</li>
+                                    <li>A minimum 2 day rental applies.</li>
+                                </ul>
+                                <p>We thank you very much for your understanding.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br />
+                    <form name="calculator" id="calculator" action="thankyou" method="post"
+                        enctype="multipart/form-data" data-netlify-recaptcha="true" data-netlify="true"
+                        autocomplete="on">
+
+                        <legend>Requirements</legend>
+                        <div class="form-row col-12" style="background-color: #e9ecef">
+                            <div class="form-group col-md-4">
+                                <label for="bike">Select a Motorcycle</label>
+                                <select id="bike" name="bike" class="form-control">
+                                    {{ range $key, $value := .bikes }}
+                                    <option value="{{ $value }}">{{ $key}}</option>
+                                    {{ end}}
+                                </select>
+                            </div>
+
+                            <div class="form-group col-4">
+                                <label for="pickup">Pick Up</label>
+                                <div class="clearfix" style="height: 0; margin:0; padding: 0;"></div>
+                                <input id="pickup_date" name="pickup_date" class="form-control float-left col-5"
+                                    type="text" value="">
+                                <span class="float-left">&nbsp;</span>
+                                <select class="form-control float-left col-3" id="pickup_hours" name="pickup_hours">
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                </select>
+                                <span class="float-left">:</span>
+                                <select class="form-control float-left col-3" id="pickup_minutes" name="pickup_minutes">
+                                    <option value="00">00</option>
+                                    <option value="30">30</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-4">
+                                <label for="dropoff">Drop Off</label>
+                                <div class="clearfix" style="height: 0; margin:0; padding: 0;"></div>
+                                <input id="dropoff_date" name="dropoff_date" class="form-control float-left col-5"
+                                    type="text" value="">
+                                <span class="float-left">&nbsp;</span>
+                                <select class="form-control float-left col-3" id="dropoff_hours" name="dropoff_hours">
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                </select>
+                                <span class="float-left">:</span>
+                                <select class="form-control float-left col-3" id="dropoff_minutes"
+                                    name="dropoff_minutes">
+                                    <option value="00">00</option>
+                                    <option value="30">30</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <br />
+                        <legend>Extras</legend>
+                        <div class="form-row col-12" style="background-color: #e9ecef">
+                            <div class="form-check col-md-1">
+                            </div>
+                            <div class="form-check col-md-3">
+                                <input class="form-check-input" type="checkbox" value="satnav" id="satnav">
+                                <label class="form-check-label" for="satnav">Sat Nav</label>
+                            </div>
+                            <div class="form-check col-md-3">
+                                <input class="form-check-input" type="checkbox" value="overseas" id="overseas">
+                                <label class="form-check-label" for="overseas">Overseas Licence</label>
+                            </div>
+                            <div class="form-check col-md-3">
+                                <input class="form-check-input" type="checkbox" value="outside" id="outside">
+                                <label class="form-check-label" for="outside">Ride Outside UK</label>
+                            </div>
+                        </div>
+                        <div class="form-row col-12" style="background-color: #e9ecef">
+                            <div class="form-check col-md-1">
+                            </div>
+                            <div class="form-check col-md-3">
+                                <input class="form-check-input" type="checkbox" value="panniers" id="panniers">
+                                <label class="form-check-label" for="panniers">Side Panniers</label>
+                            </div>
+                            <div class="form-check col-md-3">
+                                <input class="form-check-input" type="checkbox" value="topbox" id="topbox">
+                                <label class="form-check-label" for="topbox">Top Box</label>
+                            </div>
+                            <div class="form-check col-md-3">
+                                <input class="form-check-input" type="checkbox" value="tankbag" id="tankbag">
+                                <label class="form-check-label" for="tankbag">Tank Bag</label>
+                            </div>
+                        </div>
+
+                        <br />
+                        <legend>Items</legend>
+                        <div class="form-row">
+                            <div class="form-check col-6 col-sm-5">
+                                <label class="form-check-label" for="motorcycle">Motorcycle</label>
+                                <input id="motorcycle" name="motorcycle" readonly="" class="form-control" type="text">
+                            </div>
+                            <div class="form-check col-6 col-sm-3">
+                                <label class="form-check-label" for="days">Rental Period (Days)</label>
+                                <input id="days" name="days" readonly="" class="form-control" type="text">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <label class="form-check-label" for="daily">Daily Rate</label>
+                                <input id="daily" name="daily" readonly="" class="form-control text-right" type="text">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <label class="form-check-label" for="charge">Charge</label>
+                                <input id="charge" name="charge" readonly="" class="form-control text-right"
+                                    type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="weekend_item" hidden>
+                            <div class="form-check col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text"
+                                    value="Weekend rate charge applies">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <input id="weekend_charge" name="weekend_charge" readonly=""
+                                    class="form-control text-right" type="text" value="">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="sundaypickup_item" hidden>
+                            <div class="form-check col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text"
+                                    value="Sunday pick up charge applies">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <input id="sundaypickup_charge" name="sundaypickup_charge" readonly=""
+                                    class="form-control text-right" type="text" value="">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="mondaypickup_item" hidden>
+                            <div class="form-check col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text"
+                                    value="Monday pick up charge applies">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <input id="mondaypickup_charge" name="mondaypickup_charge" readonly=""
+                                    class="form-control text-right" type="text" value="">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="sundaydropoff_item" hidden>
+                            <div class="form-check col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text"
+                                    value="Sunday drop off charge applies">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <input id="sundaydropoff_charge" name="sundaydropoff_charge" readonly=""
+                                    class="form-control text-right" type="text" value="">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="mondaydropoff_item" hidden>
+                            <div class="form-check col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text"
+                                    value="Monday drop off charge applies">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <input id="mondaydropoff_charge" name="mondaydropoff_charge" readonly=""
+                                    class="form-control text-right" type="text" value="">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="satnav_item" hidden>
+                            <div class="form-check col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text" value="Sat Nav">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <input id="satnav_charge" name="satnav_charge" readonly=""
+                                    class="form-control text-right" type="text" value="">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="overseas_item" hidden>
+                            <div class="form-check col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text" value="Overseas Licence">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <input id="overseas_charge" name="overseas_charge" readonly=""
+                                    class="form-control text-right" type="text" value="">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="outside_item" hidden>
+                            <div class="form-check col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text" value="Ride outside UK">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <input id="outside_charge" name="outside_charge" readonly=""
+                                    class="form-control text-right" type="text" value="">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="panniers_item" hidden>
+                            <div class="form-check col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text" value="Side panniers">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <input id="panniers_charge" name="panniers_charge" readonly=""
+                                    class="form-control text-right" type="text" value="FREE">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="topbox_item" hidden>
+                            <div class="form-check col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text" value="Top Box">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <input id="topbox_charge" name="topbox_charge" readonly=""
+                                    class="form-control text-right" type="text" value="FREE">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="tankbag_item" hidden>
+                            <div class="form-check col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text" value="Tank Bag">
+                            </div>
+                            <div class="form-check col-6 col-sm-2">
+                                <input id="tankbag_charge" name="tankbag_charge" readonly=""
+                                    class="form-control text-right" type="text" value="FREE">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="discount_item">
+                            <div class="form-check float-right col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right" type="text" value="Discount">
+                            </div>
+                            <div class="form-check float-right col-6 col-sm-2">
+                                <input id="week_discount" name="week_discount" readonly=""
+                                    class="form-control text-right" type="text" value="">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="total_item">
+                            <div class="form-check float-right col-6 col-sm-10">
+                                <input readonly="" class="form-control text-right font-weight-bold" type="text"
+                                    value="TOTAL">
+                            </div>
+                            <div class="form-check float-right col-6 col-sm-2">
+                                <input id="total" name="total" readonly=""
+                                    class="form-control text-right font-weight-bold" type="text" value="">
+                            </div>
+                        </div>
+
+                        <br />
+                        <legend>Contact</legend>
+                        <div class="form-row">
+                            <div class="form-check col-6">
+                                <label class="form-check-label" for="firstname">First Name</label>
+                                <input id="firstname" name="firstname" class="form-control" type="text" required="true">
+                            </div>
+                            <div class="form-check col-6">
+                                <label class="form-check-label" for="lastname">Last Name</label>
+                                <input id="lastname" name="lastname" class="form-control" type="text" required="true">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-check col-12">
+                                <label class="form-check-label" for="firstname">Email</label>
+                                <input id="email" name="email" class="form-control" type="email" required="true">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-check col-12">
+                                <label class="form-check-label" for="firstname">Comments</label>
+                                <textarea id="comment" name="comment" class="form-control" type="textarea" rows="8"
+                                    placeholder="Please add any additional comments or questions here."></textarea>
+                            </div>
+                        </div>
+
+                        {{ if .button.enable }}
+                        {{ with .button }}
+                        <div class="content">
+                            <div style="position:relative;">
+                                <div style="margin-top:20px;" class="g-recaptcha"
+                                    data-sitekey="6LdfDRIUAAAAAD2jumM9NsW_VBG081pIsv0CF5En"
+                                    data-callback="recaptchaCallback"></div>
+                                <input id='recaptcha_check_empty' required tabindex='-1'
+                                    style='width:50px; height:0; opacity:0; pointer-events:none; position:absolute; left:20px; bottom:0;'>
+                            </div>
+                            <button class="btn btn-main">{{ .label }}</button>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+
+                    </form>
+
+                    <!-- <p class="mb-4">{{ .content | markdownify }}</p> -->
+
+                </div>
+            </div>
+        </div><!-- .row close -->
+    </div><!-- .container close -->
+</section><!-- header close -->
+
+{{- end }}
+{{- end }}
