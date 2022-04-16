@@ -1,3 +1,37 @@
+[[main]]
+name = "tours"
+url = "/tours"
+weight = 1
+[[main]]
+name = "rental"
+url = "/rental"
+weight = 2
+[[main]]
+name = "training"
+url = "/training"
+weight = 3
+[[main]]
+name = "adventure"
+url = "/adventure"
+weight = 4
+[[main]]
+name = "bic rally club"
+url = "/bicrallyclub"
+weight = 5
+[[main]]
+name = "contact"
+url = "contact"
+weight = 6
+#[[main]]
+#name = "blog"
+#url = "blog"
+#weight = 6
+#[[main]]
+#name = "Pricing"
+#url = "pricing"
+#weight = 7
+
+
 [[footer_left]]
 name = "About Us"
 url = "#"
@@ -25,31 +59,3 @@ url = "terms-conditions"
 [[footer_right]]
 name = "FAQ"
 url = "faq"
-[[main]]
-name = "tours"
-url = "/tours"
-weight = 1
-[[main]]
-name = "rental"
-url = "/rental"
-weight = 2
-[[main]]
-name = "training"
-url = "/training"
-weight = 3
-[[main]]
-name = "bic rally club"
-url = "/bicrallyclub"
-weight = 4
-[[main]]
-name = "contact"
-url = "contact"
-weight = 7
-[[main]]
-name = "blog"
-url = "blog"
-weight = 6
-#[[main]]
-#name = "Pricing"
-#url = "pricing"
-#weight = 7

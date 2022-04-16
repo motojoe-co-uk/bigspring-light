@@ -1,7 +1,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-{{ if $data.homepage.calculator.enable }}
-{{ with $data.homepage.calculator }}
+{{ with .Params.calculator }}
+{{ if .enable }}
 
 <section class="section">
     <div class="container">

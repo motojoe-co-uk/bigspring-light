@@ -12,7 +12,7 @@ menu:
   main:
     name: Glenelg - July 2022
     parent: tours
-    weight: 6
+    weight: 4
 
 enquirebutton: true
 

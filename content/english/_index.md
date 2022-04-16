@@ -1,4 +1,4 @@
-  ---
+---
 hero:
   title: 
   images: 
@@ -15,7 +15,7 @@ hero:
     - item:
       heading: rental
       subheading: latest model BMWs
-      image: images/rentals.jpeg
+      image: images/rental/hero.jpg
       link: https://rentamotorcycle.co.uk
     - item:
       heading: on-road training
@@ -104,7 +104,7 @@ service:
     button:
       enable: true
       label: More info...
-      link: "#"
+      link: "rental"
 
   - title: On-road Training
     images:
@@ -119,7 +119,7 @@ service:
     button:
       enable: true
       label: More info...
-      link: "#"
+      link: "training"
 
   - title: Off-road Training
     images:

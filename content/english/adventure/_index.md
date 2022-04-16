@@ -1,13 +1,13 @@
 ---
-title: MOTOJOE TRAINING
-description : "MotoJoe Training"
+title: MOTOJOE ADVENTURE
+description : MotoJoe Adventure
 draft: false
 
 hero:
   title: 
   images: 
     - item:
-      heading: MotoJoe Training
+      heading: MotoJoe Adventure
       subheading: No matter what you need, we've got it
       image: /images/training/hero.png
       # link: https://rentamotorcycle.co.uk

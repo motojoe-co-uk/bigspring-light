@@ -12,7 +12,7 @@ menu:
   main:
     name: Glenelg - September 2022
     parent: tours
-    weight: 5
+    weight: 6
 
 enquirebutton: true
 

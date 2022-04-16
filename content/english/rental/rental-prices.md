@@ -1,11 +1,12 @@
 ---
 title: Rental Prices
-description : this is a meta description
+description : Rental Prices
 draft: false
 type: rental-prices
+
 menu:
   main:
-    name: Rental Prices
+    name: Prices
     parent: rental
     weight: 2
 ---

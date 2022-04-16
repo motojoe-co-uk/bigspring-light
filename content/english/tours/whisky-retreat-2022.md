@@ -10,7 +10,7 @@ menu:
   main:
     name: Whisky Retreat - September 2022
     parent: tours
-    weight: 4
+    weight: 5
 
 enquirebutton: true
 ---

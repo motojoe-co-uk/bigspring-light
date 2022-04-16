@@ -144,7 +144,7 @@ h5,
 h6 {
   font-weight: 300;
   margin: 0px;
-  margin-top: 2em;
+  // margin-top: 2em;
   font-weight: 550;
 }
 
@@ -331,7 +331,7 @@ section.section.hero > div.container {
 }
 
 .btn-main {
-  color: #fff;
+  color: #fff !important;
   border-radius: 30px;
   font-size: 18px;
   padding: 15px 40px;
@@ -348,10 +348,21 @@ section.section.hero > div.container {
 }
 
 .btn-main-sm {
-  padding: 12px 35px;
-  text-transform: uppercase;
+  color: #fff !important;
+  border-radius: 20px;
   font-size: 14px;
-  font-weight: bold;
+  padding: 10px 30px;
+  display: inline-block;
+  // text-transform: uppercase;
+  // font-weight: bold;
+  background-color: $primary-color;
+  background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
+
+  &:hover,
+  &:focus {
+    background-color: $primary-color;
+    color: #fff;
+  }
 }
 
 /* navigation */

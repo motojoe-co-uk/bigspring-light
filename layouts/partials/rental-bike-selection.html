@@ -20,7 +20,7 @@
 
     <div class="row no-gutters">
       <div class="col-2 align-self-center text-center">
-        <img class="img-fluid vw-100 lazyload" data-src="{{ $urban }}" data-sizes="auto" />
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $urban.Permalink }}" data-sizes="auto" />
       </div>
       <div class="col-2 align-self-center text-center">
         <img class="img-fluid vw-100 lazyload" data-src="{{ $sport.Permalink }}" data-sizes="auto" />
@@ -105,7 +105,8 @@
     </div>
 
     <div class="row no-gutters">
-      {{ $s1000r := resources.Get "/img/bikes/s1000r.png" }}
+      <!-- {{ $s1000r := resources.Get "/img/bikes/s1000r.png" }} -->
+      {{ $r1250r := resources.Get "/img/bikes/r1250r.png" }}
       {{ $rninetracer := resources.Get "/img/bikes/rninetracer.png" }}
       {{ $f850gs := resources.Get "/img/bikes/f850gs.png" }}
 
@@ -115,9 +116,13 @@
       </div>
       <div class="col-2 align-self-center text-center">
       </div>
-      <div class="col-2 align-self-center text-center">
+      <!-- <div class="col-2 align-self-center text-center">
         <img class="img-fluid vw-100 lazyload" data-src="{{ $s1000r.Permalink }}" data-sizes="auto" />
         S 1000 R
+      </div> -->
+      <div class="col-2 align-self-center text-center">
+        <img class="img-fluid vw-100 lazyload" data-src="{{ $r1250r.Permalink }}" data-sizes="auto" />
+        R 1250 R
       </div>
       <div class="col-2 align-self-center text-center">
         <img class="img-fluid vw-100 lazyload" data-src="{{ $rninetracer.Permalink }}" data-sizes="auto" />
@@ -131,7 +136,6 @@
     </div>
 
     <div class="row no-gutters">
-      {{ $r1250r := resources.Get "/img/bikes/r1250r.png" }}
       {{ $rninetpure := resources.Get "/img/bikes/rninetpure.png" }}
       {{ $f900xr := resources.Get "/img/bikes/f900xr.jpg" }}
 
@@ -142,9 +146,11 @@
       <div class="col-2 align-self-center text-center">
       </div>
       <div class="col-2 align-self-center text-center">
+      </div>
+      <!-- <div class="col-2 align-self-center text-center">
         <img class="img-fluid vw-100 lazyload" data-src="{{ $r1250r.Permalink }}" data-sizes="auto" />
         R 1250 R
-      </div>
+      </div> -->
       <div class="col-2 align-self-center text-center">
         <img class="img-fluid vw-100 lazyload" data-src="{{ $rninetpure.Permalink }}" data-sizes="auto" />
         R nineT Pure

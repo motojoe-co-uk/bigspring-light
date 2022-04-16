@@ -1,0 +1,284 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rentals</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/vendor/js-xlsx-master/dist/xlsx.full.min.js"></script>
+    <script src="js/vendor/moment.min.js"></script>
+    <script src="js/vendor/d3.v4.min.js"></script>
+    <!-- <script src="js/vendor/d3-scale.v1.min.js"></script> -->
+    <style>
+    html {
+        font-size: 0.7em;
+        margin: 2px;
+    }
+
+    #rentals {
+        display: table;
+        border-collapse: collapse;
+        /*overflow: scroll;*/
+    }
+
+    div.day {
+        display: table-row;
+        border-bottom: 1px solid grey;
+        clear: both;
+        /*overflow: scroll;*/
+    }
+
+    div.month {
+        display: table-row;
+        border-top: 1px solid #eee;
+        border-top: 1px solid #eee;
+        clear: both;
+        background: #eee;
+        text-align: center;
+        /*font-variant: small-caps;*/
+        font-size: 0.8em;
+        line-height: 1 !important;
+    }
+
+    div.heading {
+        display: table-row;
+        clear: both;
+        /*overflow: scroll;*/
+    }
+
+    div.date {
+        display: table-cell;
+        width: 24px;
+        /*height: 90%;*/
+        /*float: left;*/
+        text-align: center;
+        text-transform: lowercase;
+        font-variant: small-caps;
+        font-size: 0.8em;
+        line-height: 1 !important;
+    }
+
+    div.summary {
+        display: table-cell;
+        background: #eff;
+        /*margin: px;*/
+        padding-right: 10px;
+        font-size: 0.7em;
+        text-align: right;
+        line-height: 0.8;
+        cursor: pointer;
+    }
+
+    div.entry {
+        display: table-cell;
+        margin: 2px;
+        padding: 2px;
+        /*float: left;*/
+        border-radius: 4px;
+    }
+
+    div.header {
+        display: table-cell;
+        font-size: 0.6em;
+        margin: 2px;
+        padding: 2px;
+        /*float: left;*/
+        border-radius: 4px;
+    }
+
+    div.blank {
+        display: table-cell;
+    }
+
+    div.reg {
+        width: 22px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3px;
+        font-size: 0.75em;
+        font-weight: bold;
+        color: #ccc;
+        text-align: center;
+        padding-left: 4px;
+        padding-right: 4px;
+        border: 1px solid #ccc;
+        text-transform: uppercase;
+        box-shadow: #333 1px 1px 1px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .true {
+        background: green;
+    }
+
+    .false {
+        background: red;
+    }
+
+    .aged {
+        color: red;
+    }
+
+    div.entry.aged:not(.start):not(.out):not(.end)>div.reg {
+        color: red;
+        font-weight: unset;
+    }
+
+    div.entry.start>div.reg {
+        background: green;
+        color: white;
+    }
+
+    div.entry.out>div.reg {
+        background: yellow;
+        color: #333;
+    }
+
+    div.entry.end>div.reg {
+        background: red;
+        color: white;
+    }
+
+    div.entry.unconfirmed>div.reg {
+        background: pink;
+        color: white;
+    }
+
+    div.entry.oos>div.reg {
+        display: none;
+        background: blue;
+    }
+
+/*    div.entry.reg>div.reg {
+        background: white;
+        color: blue;
+    }*/
+
+    div.regx {
+        padding: 10px;
+    }
+
+    div.detail {
+        display: none;
+    }
+
+    div.name,
+    div.machine,
+    div.startDate,
+    div.endDate {
+        font-size: 0.7em;
+    }
+
+    div.bike {
+        width: 22px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.tBag {
+        clear: both;
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 5px;
+        height: 8px;
+        margin-left: 7px;
+    }
+
+    div.pannier {
+        float: left;
+        border: 1px solid black;
+        width: 4px;
+        height: 8px;
+        border-radius: 2px;
+    }
+
+    div.tBox {
+        float: left;
+        border: 1px solid black;
+        border-radius: 2px;
+        width: 6px;
+        height: 7px;
+        margin: 1px;
+        margin-top: 7px;
+    }
+
+    div.nav,
+    div.bar {
+        float: left;
+        border: 1px solid black;
+        border-radius: 1px;
+        width: 5px;
+        margin-top: 10px;
+    }
+
+    div.nav {
+        height: 4px;
+        /*background: blue;*/
+        border-radius: 2px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .arc text {
+        font: 10px sans-serif;
+        text-anchor: middle;
+    }
+
+    .arc path {
+        stroke: #fff;
+    }
+
+    .legend {
+        font-size: 10px;
+    }
+
+    rect {
+        stroke-width: 2;
+    }
+    </style>
+</head>
+
+<body>
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <button id="callGraphButton" type="button" class="btn btn-primary" onclick="callGraphApi()">Sign In</button>
+    <h1>Rentals</h1>
+    <div id="rentals"></div>
+    <div id="errorMessage" class="text-danger"></div>
+    <div class="hidden">
+        <h3>Graph API Call Response</h3>
+        <pre class="well" id="graphResponse"></pre>
+    </div>
+    <div class="hidden">
+        <h3>Access Token</h3>
+        <pre class="well" id="accessToken"></pre>
+    </div>
+    <div class="hidden">
+        <h3>ID Token Claims</h3>
+        <pre class="well" id="userInfo"></pre>
+    </div>
+    <div style="clear: both; margin-top: 10px;">
+        <button id="signOutButton" type="button" class="btn btn-primary hidden" onclick="signOut()">Sign out</button>
+    </div>
+    <!-- This app uses cdn to reference msal.js (recommended). 
+     You can also download it from: https://github.com/AzureAD/microsoft-authentication-library-for-js -->
+    <script src="https://secure.aadcdn.microsoftonline-p.com/lib/0.1.1/js/msal.min.js"></script>
+    <!-- <script src="js/msal.js"></script> -->
+    <!-- The 'bluebird' and 'fetch' references below are required if you need to run this application on Internet Explorer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.4/bluebird.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script type="text/javascript" src="js/msalconfig.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
