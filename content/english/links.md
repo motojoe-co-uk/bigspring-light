@@ -6,8 +6,8 @@ draft: false
 menu:
   main:
     name: Links
-    parent: advice
-    weight: 4
+    parent: rental
+    weight: 8
 ---
 ### Touring Scotland for the first time?
 

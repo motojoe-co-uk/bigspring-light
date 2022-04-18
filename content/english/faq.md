@@ -8,8 +8,8 @@ draft: false
 menu:
   main:
     name: FAQs
-    parent: advice
-    weight: 1
+    parent: rental
+    weight: 5
 ---
 
 ### Is insurance included in the price?

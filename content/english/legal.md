@@ -6,8 +6,8 @@ draft: false
 menu:
   main:
     name: Legal
-    parent: advice
-    weight: 3
+    parent: rental
+    weight: 7
 ---
 ### Riding within the Law
 The following information and tips have been compiled for the benefit of those visiting from outwith the U.K.
