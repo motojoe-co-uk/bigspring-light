@@ -64,16 +64,16 @@
 
                         <legend>Requirements</legend>
                         <div class="form-row col-12" style="background-color: #e9ecef">
-                            <div class="form-group col-md-4">
+                            <div class="form-group col-lg">
                                 <label for="bike">Select a Motorcycle</label>
-                                <select id="bike" name="bike" class="form-control">
+                                <select id="bike" name="bike" class="form-control col-11">
                                     {{ range $key, $value := .bikes }}
                                     <option value="{{ $value }}">{{ $key}}</option>
                                     {{ end}}
                                 </select>
                             </div>
 
-                            <div class="form-group col-md-4">
+                            <div class="form-group col-lg">
                                 <label for="pickup">Pick Up</label>
                                 <div class="clearfix" style="height: 0; margin:0; padding: 0;"></div>
                                 <input id="pickup_date" name="pickup_date" class="form-control float-left col-5"
@@ -96,7 +96,7 @@
                                 </select>
                             </div>
 
-                            <div class="form-group col-md-4">
+                            <div class="form-group col-lg">
                                 <label for="dropoff">Drop Off</label>
                                 <div class="clearfix" style="height: 0; margin:0; padding: 0;"></div>
                                 <input id="dropoff_date" name="dropoff_date" class="form-control float-left col-5"
