@@ -7,7 +7,7 @@ menu:
   main:
     name: Links
     parent: rental
-    weight: 8
+    weight: 9
 ---
 ### Touring Scotland for the first time?
 

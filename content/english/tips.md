@@ -8,7 +8,7 @@ menu:
   main:
     name: Hints and Tips
     parent: rental
-    weight: 6
+    weight: 7
 ---
 ### Petrol
 Petrol is available at Petrol Stations (stating the obvious) such as Shell and BP but also available at larger supermarkets such as Tesco, ASDA, Sainsbury’s and Morrisons. Generally the larger supermarkets sell petrol slightly cheaper than the Petrol Stations. Virtually every fuel point will have 95 octane unleaded (green hose/trigger) and some will have 98 octane or similar. Petrol is priced in litres and the +95 octane petrol is normally a few pennies more expensive. F.Y.I. there are 3.8 litres in a US Gallon and 4.5 litres in a UK gallon.

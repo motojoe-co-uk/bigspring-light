@@ -9,7 +9,7 @@ menu:
   main:
     name: FAQs
     parent: rental
-    weight: 5
+    weight: 6
 ---
 
 ### Is insurance included in the price?

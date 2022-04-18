@@ -3,9 +3,14 @@ title: Booking Enquiry
 description: this is a meta description
 type: booking-enquiry
 menu:
+  main:
+    name: Booking Enquiry
+    parent: rental
+    weight: 5
   footer:
     name: contact us
     weight: 1
+
 
 ########################## booking enquiry #########################
 enquiry:
