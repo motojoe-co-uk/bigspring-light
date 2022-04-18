@@ -22,11 +22,11 @@ enquiry:
    label: "Submit"    
 
 ---
-If you wish to book or have a booking enquiry regarding a tour or rental, please email us at enquiries@rentamotorcycle.co.uk or call us on +44 (0) 131 603 4466.
+If you wish to book or have a booking enquiry regarding a tour or rental, please email us at info@motojoe.co.uk or call us on +44 (0) 131 603 4466.
 
 We also have a range of clothing available to rent or purchase. More detail available [here](/rental/rental-clothing).
 
-Alternatively, you can message us via Facebook, Twitter or simply fill in the form below:
+Alternatively, you can simply fill in the form below:
 
 The more information you give us about your requirements, the better able we will be to deal with your enquiry. If possible, please let us have the following details in your email to us:
 
