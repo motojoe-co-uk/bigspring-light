@@ -385,10 +385,43 @@ $('#calculator').change(function (){
 });
 
 
-
+console.log("calculator.js loaded");
 
 function onSubmit(token) {
     console.log('submitting...');
 //   $("#calculator").submit();
 }
 
+function recaptchaCallback() { 
+	$('#recaptcha_check_empty').val(1);
+  }
+  
+  const processForm = form => {
+	const data = new FormData(form);
+  
+	fetch('/', {
+	  method: 'POST',
+	  body: data,
+	})
+	.then(() => {
+	  form.innerHTML = `<div class="alert alert-success" role="alert">
+		<h4 class="alert-heading mt-0">Submitted.</h4>
+		Please check your inbox for a confirmation email.<br/>
+	  </div>`;
+	})
+	.catch(error => {
+	  form.innerHTML = `<div class="alert alert-danger" role="alert">
+		<h4 class="alert-heading mt-0">An error occurred.</h4>
+		Please refresh your browser and try to submit the form again.<br/><br/>
+		Error: ${error}
+	  </div>`;
+	})
+  }
+  
+  const form = document.querySelector('form');
+  if (form) {
+	form.addEventListener('submit', e => {
+	  e.preventDefault();
+	  processForm(form);
+	})
+  }

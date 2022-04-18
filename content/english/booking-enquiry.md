@@ -7,10 +7,19 @@ menu:
     name: contact us
     weight: 1
 
+########################## booking enquiry #########################
+enquiry:
+  enable: true
+  title: "Booking Enquiry"
+  content: ""
+  button:
+   enable: true
+   label: "Submit"    
+
 ---
 If you wish to book or have a booking enquiry regarding a tour or rental, please email us at enquiries@rentamotorcycle.co.uk or call us on +44 (0) 131 603 4466.
 
-We also have a range of clothing available to rent or purchase. More detail available [here](/clothing).
+We also have a range of clothing available to rent or purchase. More detail available [here](/rental/rental-clothing).
 
 Alternatively, you can message us via Facebook, Twitter or simply fill in the form below:
 

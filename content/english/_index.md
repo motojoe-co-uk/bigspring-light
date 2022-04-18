@@ -5,12 +5,12 @@ hero:
     - item:
       heading: guided tours
       subheading: spectacular tours of scotland
-      image: images/guided_tour.png
+      image: images/tours/guided_tour.png
       link: https://rentamotorcycle.co.uk
     - item:
       heading: unguided tours
       subheading: tour at your own pace
-      image: images/unguided_tours.jpeg
+      image: images/tours/unguided_tours.jpg
       link: https://rentamotorcycle.co.uk
     - item:
       heading: rental
@@ -18,19 +18,19 @@ hero:
       image: images/rental/hero.jpg
       link: https://rentamotorcycle.co.uk
     - item:
-      heading: on-road training
+      heading: training
       subheading: whatever your training needs
       image: images/training.png
       link: https://motojoe.co.uk/training
     - item:
       heading: off-road training
       subheading: "#dirtydemo sessions"
-      image: images/dirty_demo.jpeg
-      link: https://motojoe.co.uk/training
+      image: images/adventure/dirty_demo.jpg
+      link: /adventure
     - item:
       heading: off-road experiences
       subheading: forest trails
-      image: images/off-road_training.png
+      image: images/adventure/off-road_training.png
       link: https://motojoe.co.uk/training
   
 banner:
@@ -52,18 +52,23 @@ feature:
   - name: Guided Tours
     icon: fas fa-map-marked-alt
     content: Guided and unguided tours of Scotland<br/><br/>
+    link: /tours/guided-tours
   - name: Unguided Tours
     icon: fas fa-route
     content: Guided and unguided tours of Scotland<br/><br/>
+    link: /tours/unguided-tours
   - name: Rentals
     icon: fas fa-motorcycle
     content: The latest models from the BMW range<br/><br/>
+    link: /rental/rental-bike-selection
   - name: On-road training
     icon: fas fa-road
     content: CBT / DAS and ERS Training<br/><br/>
+    link: /training
   - name: Off-road training
     icon: fas fa-tree
     content: Introductions to off-road riding to full days off-road
+    link: /adventure
 
 service:
   enable: true
@@ -80,7 +85,7 @@ service:
     button:
       enable: true
       label: More info...
-      link: "#"
+      link: /tours/guided-tours
 
   - title: Unguided Tours
     images:
@@ -93,7 +98,7 @@ service:
     button:
       enable: true
       label: More info...
-      link: "#"
+      link: /tours/unguided-tours
 
   - title: Rental
     images:
@@ -104,7 +109,7 @@ service:
     button:
       enable: true
       label: More info...
-      link: "rental"
+      link: "rental/rental-prices"
 
   - title: On-road Training
     images:
@@ -133,7 +138,7 @@ service:
     button:
       enable: true
       label: More info...
-      link: "#"
+      link: "adventure"
 
   - title: BIC Rally Club
     images:

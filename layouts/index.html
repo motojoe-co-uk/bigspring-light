@@ -41,7 +41,7 @@
         <p class="mb-4">{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <div><a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-main mb-5">{{ .label }}</a></div>
+        <div><a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-main-sm">{{ .label }}</a></div>
         {{ end }}
         {{ end }}
 
@@ -64,12 +64,14 @@
       </div>
       {{ range .feature_item }}
       <div class="col-md-4 col-sm-6 mb-4">
-        <div class="feature-card text-center">
+        <a href="{{ .link | relURL }}" title="{{ .label }}">
+          <div class="feature-card text-center">
           <i class="{{.icon}} mb-3"></i>
           <h4 class="mb-2">{{ .name | title }}</h4>
           <p>{{ .content | markdownify }}</p>
         </div>
-      </div>
+      </a>
+    </div>
       {{ end }}
     </div>
   </div>

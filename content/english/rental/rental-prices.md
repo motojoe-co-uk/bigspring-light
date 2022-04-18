@@ -29,11 +29,11 @@ However, one particularly wonderful member of our team gives up their days off j
 - We ask you to agree firm collection and/or return times at the time of booking. If these times change please give us as much notice as possible as you risk there being no one here to meet you and therefore you will be unable to collect or return your motorcycle. Please note that if you do not amend your collection or return time and are more than 2 hours late for a return or collection on a Sunday or a Monday, we may charge, at our discretion, an additional fee of £25 per bike.
 - Riding outside the UK incurs a charge per week, or part thereof.
 
-Use our [Rental Calculator](/rental-calculator) and check availability for your specific requirements.
+Use our [Rental Calculator](/rental/rental-calculator) and check availability for your specific requirements.
 
-Clothing is also available to buy or rent. More detail [here](/clothing).
+Clothing is also available to buy or rent. More detail [here](/rental/rental-clothing).
 
-Please make sure you have read our [terms](rental-terms) and our [insurance details](insurance-details).
+Please make sure you have read our [terms](/terms/rental-terms) and our [insurance details](/terms/insurance-details).
 
 ### Seat Heights
 Information about seat heights for our rental motorcycles can be found [here](https://www.bmw-motorrad.co.uk/en/models/seat-height-overview.html).

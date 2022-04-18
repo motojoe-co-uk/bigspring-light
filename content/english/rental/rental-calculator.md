@@ -41,5 +41,3 @@ calculator:
     R nineT Urban GS: 220
 
 ---
-
-Rental Calculator

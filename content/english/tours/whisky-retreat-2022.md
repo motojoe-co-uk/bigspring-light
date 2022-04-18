@@ -3,9 +3,12 @@ title: Whisky Retreat - 2-4 September 2022
 date: 2019-10-17T11:22:16.000+06:00
 image: "/images/tours/Speyside 2022.gif"
 video: "/images/tours/Speyside Retreat.mp4"
+
 description: Whisky Retreat - 2-4 September 2022
-price: '695.00'
-days: "3"
+
+price: 695
+days: 3
+
 menu:
   main:
     name: Whisky Retreat - September 2022

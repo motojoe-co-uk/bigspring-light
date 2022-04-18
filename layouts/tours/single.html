@@ -1,9 +1,44 @@
 {{ define "main" }}
 
+<!-- hero -->
+{{ with .Params.hero }}
+<!-- <section class="banner"> -->
+  <!-- <div class="container"> -->
+    <!-- <div class="row"> -->
+      <div class="hero col-12 mx-auto text-center">
+        <!-- {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" width="750px">{{end}} -->
+        <!-- <div {{if gt (len .images) 1}} class="slider" {{end}}> -->
+          <div class="slider">
+            {{ range .images }}
+          <div>
+            <div class="info">
+              <h3 class="outline">{{ .heading }}</h3>
+              <h4 class="outline">{{ .subheading }}</h4>
+              <!-- <a class="btn btn-primary" href="{{ .link }}">more info</a> -->
+              <!-- <p class="down-arrow">
+                <a class="btn btn-large btn-down-arrow" href="#theend">
+                  <i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i>
+                </a>
+              </p> -->
+            </div>
+            <img src="{{ .image | relURL }}" alt="" class="img-fluid">
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </section> -->
+{{ end }}
+<!-- /hero -->
+
+{{ partial "page-header.html" . }}
+
 <section class="section">
   <div class="container">
 
-    <div class="row">
+    {{ if .Params.image }}
+    <div class="row mb-4">
         <!-- product image slider -->
         <div class="col">
           {{ $img := .Params.image }}
@@ -12,23 +47,27 @@
           </div>
         </div>
     </div>
+    {{ end }}
 
     <div class="row">
       <div class="col">
-        {{if .Title}}<h1 class="mb-4">{{ .Title }}</h1>{{end}}
           {{if .Params.Days}}<h4><strong>Days: </strong>{{ .Params.Days }}</h4>{{end}}
-          <p class="price py-4">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
-            {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
+          {{if or (.Params.discount_price) (.Params.price) }}
+          <p class="price py-4">{{if .Params.discount_price}}{{site.Params.variables.currency}}{{.Params.discount_price}}{{else}}{{site.Params.variables.currency}}{{.Params.price}}{{end}}
+            {{if .Params.discount_price}}<s class="price">{{site.Params.variables.currency}}{{ .Params.price }}</s>{{end}}
           </p>
-          {{if .Params.enquirebutton}}<a href="mailto:enquiries@rentamotorcycle.co.uk?subject=Booking Enquiry"><button class="btn btn-main mb-5">Booking Enquiry</button></a>{{end}}
+          {{ end }}
+          {{if .Params.enquirebutton}}<a href="mailto:enquiries@rentamotorcycle.co.uk?subject=Booking Enquiry"><button class="btn btn-main-sm mb-5">Booking Enquiry</button></a>{{end}}
           <!-- <a href="/booking-enquiry"><button class="btn btn-main mb-5">Booking Enquiry</button></a> -->
           <div class="content">{{.Content}}</div>
           <br/>
-          {{if .Params.enquirebutton}}<a href="mailto:enquiries@rentamotorcycle.co.uk?subject=Booking Enquiry"><button class="btn btn-main mb-5">Booking Enquiry</button></a>{{end}}
+          {{if .Params.enquirebutton}}<a href="mailto:enquiries@rentamotorcycle.co.uk?subject=Booking Enquiry"><button class="btn btn-main-sm mb-5">Booking Enquiry</button></a>{{end}}
         </div>
     </div>
 
   </div>
 </section>
+
+<script>console.log("layouts / tours / single.html");</script>
 
 {{ end }}

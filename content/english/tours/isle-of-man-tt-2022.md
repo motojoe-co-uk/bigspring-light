@@ -7,7 +7,7 @@ image: /images/tours/Isle of Man TT 2022.gif
 description : Isle of Man TT - 7-12 June 2022
 
 # product Price
-price: 2149.00
+price: 2149
 
 # product variation
 days: 6

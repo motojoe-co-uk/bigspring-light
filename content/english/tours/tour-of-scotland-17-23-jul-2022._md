@@ -4,7 +4,7 @@ date: 2019-10-17T11:22:16.000+06:00
 image: /images/tours/tour-of-scotland-2022.gif
 description: this is meta description
 price: 1499.00
-discount_price: 1449.00
+discount_price: 1449
 days: 7
 draft: true
 

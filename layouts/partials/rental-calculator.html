@@ -1,5 +1,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
+{{ partial "page-header.html" . }}
+
 {{ with .Params.calculator }}
 {{ if .enable }}
 
@@ -9,8 +11,6 @@
             <div class="col-md-12 align-self-center text-center text-md-left">
                 <div class="block">
                     <div class="content">
-                        <h2>{{ .title }}</h2>
-
                         <div>
                             <p>Enter the details of your preferred motorcycle, your pick up
                                 date, drop off date and optional extras you require to calculate
@@ -369,3 +369,5 @@
 
 {{- end }}
 {{- end }}
+
+<script>console.log("layouts / partials / rental-calculator");</script>

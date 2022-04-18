@@ -1,7 +1,8 @@
 ---
-title: MOTOJOE TRAINING
-description : "MotoJoe Training"
+title: MotoJoe Training
+description : MotoJoe Training
 draft: false
+type: hero
 
 hero:
   title: 

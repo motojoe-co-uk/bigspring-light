@@ -41,6 +41,7 @@ url = "#"
 [[footer_left]]
 name = "Pricing"
 url = "pricing"
+
 [[footer_middle]]
 name = "Pricing"
 url = "pricing"
@@ -50,12 +51,13 @@ url = "#"
 [[footer_middle]]
 name = "Features"
 url = "#"
+
 [[footer_right]]
-name = "Privacy Policy"
-url = "privacy-policy"
+name = "Rental Terms"
+url = "/terms/rental-terms"
 [[footer_right]]
-name = "Terms & Conditions"
-url = "terms-conditions"
+name = "Tour Terms"
+url = "/terms/tour-terms"
 [[footer_right]]
-name = "FAQ"
-url = "faq"
+name = "Insurance Details"
+url = "/terms/insurance-details"

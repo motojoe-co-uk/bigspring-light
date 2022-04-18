@@ -5,7 +5,7 @@ image: /images/tours/Glenelg Sep 2022.gif
 
 description: this is meta description
 
-price: 245.00
+price: 245
 days: 3
 
 menu:

@@ -1,15 +1,22 @@
 ---
 title: Contact Us
-subtitle: ''
+subtitle: 
 description: This is meta description
 
----
-### Contact us!
+enquiry:
+  enable: true
+  title: "Contact Us"
+  content: ""
+  button:
+   enable: true
+   label: "Submit"    
 
+---
 **MotoJoe is all about having fun with motorcycles.**  
 
 **Our ethos is to support and inspire each and every customer.**
-
+<br/>
+<br/>
 
 <i class="fas fa-phone"></i>&nbsp;&nbsp;+44 (0) 131 603 4466<br/>
 <i class="fas fa-envelope"></i>&nbsp;&nbsp;info@motojoe.co.uk<br/>

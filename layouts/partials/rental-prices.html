@@ -1,16 +1,9 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
+{{ partial "page-header.html" . }}
+
 <section class="section">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="content">
-                    <h2>{{ .Page.Title }}</h2>
-                </div>
-            </div>
-        </div>
-        <br />
-
         <div class="row no-gutters font-weight-bold border-bottom">
             <div class="col-6">URBAN</div>
             <div class="col-2 align-self-center text-center">DAILY</div>
@@ -258,4 +251,4 @@
     </div>
 </section>
 
-<script>console.log("rental prices");</script>
+<script>console.log("layouts / partials / rental-prices");</script>
