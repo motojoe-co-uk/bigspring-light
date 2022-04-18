@@ -1,7 +1,7 @@
 const { constants } = require('buffer');
 const nodemailer = require('nodemailer');
 
-const from = "enquiries@rentamotorcycle.co.uk";
+const from = "info@motojoe.co.uk";
 
 
 exports.handler = function (event, context, callback) {
@@ -65,29 +65,28 @@ exports.handler = function (event, context, callback) {
         Amy Tyrrell<br>
         Tours & Rental Manager<br/><br/>
         Scotland's leading motorcycle rental company.<br/><br/>
-        Follow us on <a href="https://www.facebook.com/rentamotorcycle">Facebook</a>, <a href="https://www.instagram.com/rentamotorcycle/">Instagram</a> and <a href="https://twitter.com/rentamotouk">Twitter</a><br/><br/>
+        Follow us on <a href="https://www.facebook.com/motojoe.co.uk">Facebook</a> and <a href="https://www.instagram.com/motojoe.co.uk/">Instagram</a><br/><br/>
         
         We are an independent, family owned business and Scotland's Premier BMW motorcycle retailer. We are all enthusiastic motorcyclists and passionate about our products and brand. We are here to ensure you have a spectacular motorcycle holiday in Scotland.<br/>
         <br/>
         <table style="font-family:Arial;font-size:12px">
             <tbody>
-            <tr><td style="border-right-width:2px;border-right-style:solid;border-right-color:rgb(17,134,200);padding-right:10px"><a href="http://www.rentamotorcycle.co.uk/" target="_blank"><img src="https://ci3.googleusercontent.com/proxy/_5oxbiNojwYST59oHZhADrU4hTnSryzkflr_ExZyUa179h9SfvAOgtpStzehou0EMR7yAxPDIYZPjPeCfk4Mjn5-W2177KKGOMtV9-9eVjlpofKQZDQWc1ni63ioZVmUnjJ55eXPKWbVe4Gj4h6EhJ5QShoglpsI-wuilvA=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/6788d892-69ce-4cad-bac0-45812ec75900.jpg"></a><a></a></td>
+            <tr><td style="border-right-width:2px;border-right-style:solid;border-right-color:rgb(17,134,200);padding-right:10px"><a href="http://www.motojoe.co.uk/" target="_blank"><img src="https://ci3.googleusercontent.com/proxy/_5oxbiNojwYST59oHZhADrU4hTnSryzkflr_ExZyUa179h9SfvAOgtpStzehou0EMR7yAxPDIYZPjPeCfk4Mjn5-W2177KKGOMtV9-9eVjlpofKQZDQWc1ni63ioZVmUnjJ55eXPKWbVe4Gj4h6EhJ5QShoglpsI-wuilvA=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/6788d892-69ce-4cad-bac0-45812ec75900.jpg"></a><a></a></td>
             <td style="padding-left:10px">
                 <div style="color:rgb(51,51,51);font-weight:bold;font-size:14px;margin-bottom:5px">Rental Enquiries</div>
                 <div style="margin-bottom:2px"><i>BMW Motorcycle Tours and Rentals in Scotland</i></div>
-                <div style="margin-bottom:4px"><a>www.rentamotorcycle.co.uk</a></div>
+                <div style="margin-bottom:4px"><a>www.motojoe.co.uk</a></div>
                 <div style="color:rgb(51,51,51);margin-bottom:4px">&#43;44 (0) 131 603 4466</div>
-                <a href="https://www.facebook.com/rentamotorcycle" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/Y-NOCxcVj6H_rsZrYCpmGSjooJGl_L7qRxsDonneVIW4YrUfUatfJxSeY0jscqPngY49sXpPoufp4y1aGJcYOAPXZnlRFSsQVLbK7YoXceJE0IPT71dOyRyCznPdZEYW2wS4DkMctIhUU-fW0JzOdzBx_acsFemwFU2uvP8=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/37c183ed-cd47-4691-b9bc-d845c54c4806.png"></a>&nbsp;
-                <a href="https://twitter.com/rentamotouk" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/mOAgC9KDQLzQOOVCa7-myuZ_lZup79gobcLu5x6j3bcRCmdf2mUUERT74EANMhssFzrLkDqWMaLj9i3N51mmirHU98bXx1F5eDjQHz8V-CBPxl5gHMyHuRClTha8MHh7CYcReSekijOvuBz2eZAm1P1OGzb8ImmYqMA7568=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/c694d6b5-4e53-4bd8-b9e8-a61923f4cffe.png"></a>&nbsp;
-                <a href="https://www.linkedin.com/company/rentamotorcycle" target="_blank"><img src="https://ci6.googleusercontent.com/proxy/NSKLp1zFXVByuVJnT4mhmnvNwItRGBxq-tFcx1Z1iCWqx5wNlodFjTk8Q0lh36T_SLzZNtFe9l0mLXuLaH_YG1CGrpSKMCcJML0bzF8RWj4hnMVLSfEMhJueVUg0uTTwH_56adhWx3suTyQwGPWiY2Ik9T0EyXP28pzoyAE=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/1a5e6c32-a0d1-4e06-9566-2a9ff1f55677.png"></a>&nbsp;
-                <a href="https://www.instagram.com/rentamotorcycle/" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/LD93YPCKFw7EN7BN6Fh7GbJys0jsNTHD0ND0p4UecQkqOcXqmo8wAkUuFUP4LH04q5Bnh5AVXrRYt8YVK0DroI8RgEz4-qRqVPb1zSd2OGSs7K6lrpwj5UMacARomtoawJUDR20-_DsjOapMBfSwEJ08stdD2_Uii4kYvnE=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/20733471-d8c0-4262-85f5-542b336a5ea1.png"></a>&nbsp;
-                <a href="https://plus.google.com/103713213759608194818" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/nsd9dzoVpQcWgCR7qxLnQr52JvcbNkoQmtm9qfkIVIl5l-EsPasdUf3aQTY6VLsVO_Hpl3m8nq9s5SMQwuV_QtdifoV6vABCOoL8aouFwTZ-YWikOci2Vrq80kiLyJg2kWhob8unsIVmqA6oaG0lNdGb0NkZppuuH6JFge8=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/5438a100-4e5e-4172-9202-5a3c7a936350.png"></a>
+                <a href="https://www.facebook.com/motojoe.co.uk" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/Y-NOCxcVj6H_rsZrYCpmGSjooJGl_L7qRxsDonneVIW4YrUfUatfJxSeY0jscqPngY49sXpPoufp4y1aGJcYOAPXZnlRFSsQVLbK7YoXceJE0IPT71dOyRyCznPdZEYW2wS4DkMctIhUU-fW0JzOdzBx_acsFemwFU2uvP8=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/37c183ed-cd47-4691-b9bc-d845c54c4806.png"></a>&nbsp;
+                <!-- <a href="https://www.linkedin.com/company/motojoe" target="_blank"><img src="https://ci6.googleusercontent.com/proxy/NSKLp1zFXVByuVJnT4mhmnvNwItRGBxq-tFcx1Z1iCWqx5wNlodFjTk8Q0lh36T_SLzZNtFe9l0mLXuLaH_YG1CGrpSKMCcJML0bzF8RWj4hnMVLSfEMhJueVUg0uTTwH_56adhWx3suTyQwGPWiY2Ik9T0EyXP28pzoyAE=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/1a5e6c32-a0d1-4e06-9566-2a9ff1f55677.png"></a>&nbsp; -->
+                <a href="https://www.instagram.com/motojoe.co.uk/" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/LD93YPCKFw7EN7BN6Fh7GbJys0jsNTHD0ND0p4UecQkqOcXqmo8wAkUuFUP4LH04q5Bnh5AVXrRYt8YVK0DroI8RgEz4-qRqVPb1zSd2OGSs7K6lrpwj5UMacARomtoawJUDR20-_DsjOapMBfSwEJ08stdD2_Uii4kYvnE=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/20733471-d8c0-4262-85f5-542b336a5ea1.png"></a>&nbsp;
+                <!-- <a href="https://plus.google.com/103713213759608194818" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/nsd9dzoVpQcWgCR7qxLnQr52JvcbNkoQmtm9qfkIVIl5l-EsPasdUf3aQTY6VLsVO_Hpl3m8nq9s5SMQwuV_QtdifoV6vABCOoL8aouFwTZ-YWikOci2Vrq80kiLyJg2kWhob8unsIVmqA6oaG0lNdGb0NkZppuuH6JFge8=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/5438a100-4e5e-4172-9202-5a3c7a936350.png"></a> -->
             </td>
             </tr>
             </tbody>
         </table>
         <br/>
-        <a href="http://www.rentamotorcycle.co.uk">www.rentamotorcycle.co.uk</a> trading name used by MotoJoe Ltd, a company registered in Scotland with registered number SC462439 and Motorrad Central (Scotland) Limited, a company registered in Scotland with registered number SC274747 (together, “the Motorrad Group”).<br/><br/>`
+        <a href="http://www.motojoe.co.uk">rentamotorcycle.co.uk</a> trading name used by MotoJoe Ltd, a company registered in Scotland with registered number SC462439 and Motorrad Central (Scotland) Limited, a company registered in Scotland with registered number SC274747 (together, “the Motorrad Group”).<br/><br/>`
 
         msg.html = msg.html + signature;
 
@@ -95,6 +94,8 @@ exports.handler = function (event, context, callback) {
 
         transporter.sendMail(msg, function (error, info) {
             if (error) {
+                console.log("error");
+                console.log(error);
                 callback(error);
             } else {
                 callback(null, {
@@ -113,7 +114,7 @@ function contact(data) {
     console.log("contact");
     console.dir(data);
 
-    let msg = `<p>Thank you for contacting rentamotorcycle.co.uk</p>
+    let msg = `<p>Thank you for contacting motojoe.co.uk</p>
     <p>Just to confirm we have received your message:</p>
     <p>Subject: <br/>${data.subject}</p>
     <p>Message: <br/>${data.message}</p>`
@@ -131,7 +132,7 @@ function rental(data) {
     console.log("rental");
     console.dir(data);
 
-    let msg = `<p>Thank you for contacting rentamotorcycle.co.uk</p>
+    let msg = `<p>Thank you for contacting motojoe.co.uk</p>
     <p>Just to confirm we have received your availability enquiry and will respond in due course.</p>
     <br/>
     <p>${data.firstname} ${data.lastname} (${data.email})</p>
@@ -209,7 +210,7 @@ function confirmation(data) {
     console.log("confirmation");
     console.dir(data);
 
-    let msg = `<p>Thank you for confirming your booking with rentamotorcycle.co.uk</p>
+    let msg = `<p>Thank you for confirming your booking with motojoe.co.uk</p>
     <p>Please double check that the details we have are correct:</p>
     <br/>
     <table cellspacing="2" cellpadding="2">

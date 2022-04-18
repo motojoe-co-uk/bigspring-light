@@ -1,7 +1,7 @@
 {
   "name": "motojoe",
   "version": "1.0.0",
-  "description": "<h1 align=center>Bigspring Light | <a target=\"_blank\" href=\"https://demo.gethugothemes.com/bigspring-light\" rel=\"nofollow\">Demo</a> | <a  target=\"_blank\" href=\"https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fbigspring%2F\">Page Speed (91%)</a></h1>",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
