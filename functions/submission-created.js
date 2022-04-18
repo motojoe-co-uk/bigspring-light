@@ -20,8 +20,6 @@ exports.handler = function (event, context, callback) {
 
     });
 
-    console.log(process.env.EMAIL_USER);
-
     console.log("event.body");
     console.log(event.body);
 
@@ -98,6 +96,7 @@ exports.handler = function (event, context, callback) {
             if (error) {
                 console.log("error");
                 console.log(error);
+                console.log(process.env.EMAIL_USER);
                 callback(error);
             } else {
                 callback(null, {
