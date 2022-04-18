@@ -80,14 +80,13 @@ hero:
     </div>
     <div class="card">
         <h4 class="card-header d-flex justify-content-between align-items-center">
-            Forest Trails
-            <span>£90&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-main-sm" href="mailto:adventure@motojoe.co.uk">enquire
+            Forest Trails (including bike hire)
+            <span>£230&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-main-sm" href="mailto:adventure@motojoe.co.uk">enquire
                     »</a></span>
         </h4>
         <div class="card-body">
             <p class="lead">Join us on one of our Forest Trail runs.</p>
-            <p>Rent one of our off-road prepared BMW R 1200 GS motorcycles or join us on your own motorcycle (knobbly
-                tyres required).</p>
+            <p>Includes one of our off-road prepared BMW R 1200 GS motorcycles.</p>
             <p>We also have access to smaller bikes, if preferred (limited availability). Please contact us for details.
             </p>
             <p>A fantastic and rare opportunity to ride on some forest trails in Scotland for around 60 miles.
@@ -96,9 +95,24 @@ hero:
                 once booked, normally 1 week in advance.</p>
             <p>Attendees must have off-road experience to participate. Try one of our Dirty Demos first, if you need
                 experience and/or want a refresher.</p>
-            <p>£90 to bring your own bike (knobbly tyres required) or we have our Dirty Demo bikes to rent at £230 for
-                the day (including access), should you wish to join us without using your own bike (subject to
-                availability).</p>
+            *No refunds given, unless we are able to find a replacement rider in time.</p>
+        </div>
+    </div>
+    <div class="card">
+        <h4 class="card-header d-flex justify-content-between align-items-center">
+            Forest Trails (using own bike)
+            <span>£90&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-main-sm" href="mailto:adventure@motojoe.co.uk">enquire
+                    »</a></span>
+        </h4>
+        <div class="card-body">
+            <p class="lead">Join us on one of our Forest Trail runs.</p>
+            <p>Join us on your own motorcycle (knobbly tyres required).</p>
+            <p>A fantastic and rare opportunity to ride on some forest trails in Scotland for around 60 miles.
+                Instruction is provided throughout the day.</p>
+            <p>The Forest Trails run in the Scottish Borders. The exact location and further details will be provided
+                once booked, normally 1 week in advance.</p>
+            <p>Attendees must have off-road experience to participate. Try one of our Dirty Demos first, if you need
+                experience and/or want a refresher.</p>
             *No refunds given, unless we are able to find a replacement rider in time.</p>
         </div>
     </div>

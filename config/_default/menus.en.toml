@@ -15,8 +15,8 @@ name = "adventure"
 url = "/adventure"
 weight = 4
 [[main]]
-name = "bic rally club"
-url = "/bicrallyclub"
+name = "advice"
+url = "/advice"
 weight = 5
 [[main]]
 name = "contact"

@@ -2,6 +2,13 @@
 title: "Insurance Details"
 description : "Insurance Details"
 draft: false
+
+menu:
+  main:
+    name: Insurance
+    parent: rental
+    weight: 1000
+
 ---
 Please read these insurance details and ensure you meet all of the conditions.
 

@@ -2,6 +2,12 @@
 title: "Tour Terms"
 description : "Tour Terms and Conditions"
 draft: false
+
+menu:
+  main:
+    name: Tour Terms
+    parent: tours
+    weight: 999
 ---
 ### Terms and conditions for guided and unguided tours
 

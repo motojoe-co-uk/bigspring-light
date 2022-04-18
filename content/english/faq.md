@@ -1,9 +1,15 @@
 ---
-title: "Frequently Asked Questions"
-subtitle: ""
+title: Frequently Asked Questions
+subtitle: 
 # meta description
-description: "This is meta description"
+description: Frequently Asked Questions
 draft: false
+
+menu:
+  main:
+    name: FAQs
+    parent: advice
+    weight: 1
 ---
 
 ### Is insurance included in the price?

@@ -2,6 +2,12 @@
 title: "Rental Terms"
 description : "Rental Terms and Conditions"
 draft: false
+
+menu:
+  main:
+    name: Rental Terms
+    parent: rental
+    weight: 999
 ---
 **1.** Rental periods are measured in 24-hour periods. For example, collecting a motorcycle at 9am on a one day rental and returning it at 10am the following day would incur an additional charge as the period is in excess of 24 hours.
 

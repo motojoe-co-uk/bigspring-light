@@ -2,6 +2,12 @@
 title: "Links"
 description : "this is a meta description"
 draft: false
+
+menu:
+  main:
+    name: Links
+    parent: advice
+    weight: 4
 ---
 ### Touring Scotland for the first time?
 
@@ -10,9 +16,9 @@ We’ve assembled some advice and links that might help you in planning your mot
 
 <!-- [Our hotel list](https://www.google.com/maps/d/viewer?mid=zL5HCABPRHIg.kLK97QkUryrQ&usp=sharing) – click for a map showing our favourite Scottish hotels -->
 
-[motorcyclescotland.com](https://www.motorcyclescotland.com) – Lots of good advice on routes and where to stay
+<!-- [motorcyclescotland.com](https://www.motorcyclescotland.com) – Lots of good advice on routes and where to stay -->
 
-[motogoloco.com](https://www.motogoloco.com) – A great biker- friendly accommodation website
+<!-- [motogoloco.com](https://www.motogoloco.com) – A great biker- friendly accommodation website -->
 
 [visitscotland.com](https://www.visitscotland.com) – Scottish National Tourist Board’s website
 
