@@ -1,0 +1,22 @@
+{
+  "name": "motojoe",
+  "version": "1.0.0",
+  "description": "<h1 align=center>Bigspring Light | <a target=\"_blank\" href=\"https://demo.gethugothemes.com/bigspring-light\" rel=\"nofollow\">Demo</a> | <a  target=\"_blank\" href=\"https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fbigspring%2F\">Page Speed (91%)</a></h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motojoe-co-uk/MotoJoe.git"
+  },
+  "author": "Martin Williamson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motojoe-co-uk/MotoJoe/issues"
+  },
+  "homepage": "https://github.com/motojoe-co-uk/MotoJoe#readme",
+  "dependencies": {
+    "nodemailer": "^6.5.0"
+  }
+}
