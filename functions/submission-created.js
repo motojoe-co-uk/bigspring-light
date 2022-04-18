@@ -20,6 +20,8 @@ exports.handler = function (event, context, callback) {
 
     });
 
+    console.log(process.env.EMAIL_USER);
+
     console.log("event.body");
     console.log(event.body);
 
