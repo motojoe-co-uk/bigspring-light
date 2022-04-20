@@ -147,7 +147,7 @@ service:
     button:
       enable: true
       label: More info...
-      link: "https://bicrally.netlify.app"
+      link: "https://bicrally.club"
 
 testimonials:
   enable: true
