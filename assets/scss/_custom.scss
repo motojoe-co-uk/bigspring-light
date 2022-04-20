@@ -358,6 +358,8 @@ section.section.hero > div.container {
   background-color: $primary-color;
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 
+  margin-bottom: 4px !important;
+
   &:hover,
   &:focus {
     background-color: $primary-color;
@@ -705,7 +707,7 @@ textarea.form-control {
 /* content style */
 .content {
   * {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   a {

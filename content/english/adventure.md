@@ -25,6 +25,7 @@ hero:
             <p class="text-center text-muted">NO MATTER WHAT YOU NEED, WE'VE GOT IT...</p>
         </div>
     </div>
+    <br/>
     <div class="row">
         <div class="col">
             <p class="lead text-center">
@@ -35,10 +36,11 @@ hero:
             </p>
         </div>
     </div>
-    <hr class="featurette-divider">
+    <br/><br/>
+    <!-- <hr class="featurette-divider"> -->
     <div class="row">
         <div class="col">
-            <h2 class="text-center mb-2">INTRODUCTION TO OFF-ROAD RIDING</h2>
+            <h2 class="text-center mb-5">INTRODUCTION TO OFF-ROAD RIDING</h2>
         </div>
     </div>
     <div class="card">
@@ -75,7 +77,7 @@ hero:
     </div>
     <div class="row">
         <div class="col">
-            <h2 class="text-center mb-2 mt-2">FOREST TRAILS</h2>
+            <h2 class="text-center mb-5 mt-5">FOREST TRAILS</h2>
         </div>
     </div>
     <div class="card">

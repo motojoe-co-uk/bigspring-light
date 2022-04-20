@@ -14,12 +14,13 @@ hero:
       # link: https://rentamotorcycle.co.uk
 
 ---
-<div class="">
+<div class="content">
       <div class="row">
         <div class="col">
           <p class="text-center text-muted">NO MATTER WHAT YOU NEED, WE'VE GOT IT...</p>
         </div>
       </div>
+      <br/>
       <div class="row">
         <div class="col">
           <p class="lead">
@@ -28,7 +29,8 @@ hero:
           </p>
         </div>
       </div>
-      <hr class="featurette-divider">
+      <br/><br/>
+      <!-- <hr class="featurette-divider"> -->
       <div class="row">
         <div class="col">
           <h2 class="text-center mb-5">COMPULSORY BASIC TRAINING (CBT)</h2>
