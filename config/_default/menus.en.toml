@@ -36,21 +36,30 @@ weight = 6
 name = "About Us"
 url = "#"
 [[footer_left]]
-name = "Quick Start"
-url = "#"
+name = "Testimonails"
+url = "/testimonials"
 [[footer_left]]
-name = "Pricing"
-url = "pricing"
+name = "Tours"
+url = "/tourss"
+#[[footer_left]]
+#name = "Quick Start"
+#url = "#"
+#[[footer_left]]
+#name = "Pricing"
+#url = "pricing"
 
 [[footer_middle]]
-name = "Pricing"
-url = "pricing"
+name = "Contact"
+url = "/contact"
 [[footer_middle]]
-name = "Platform"
-url = "#"
+name = "Booking Enquiry"
+url = "/booking-enquiry"
 [[footer_middle]]
-name = "Features"
-url = "#"
+name = "Location"
+url = "https://goo.gl/maps/JSnmZAigfAy4bwLf8"
+#[[footer_middle]]
+#name = "Features"
+#url = "#"
 
 [[footer_right]]
 name = "Rental Terms"

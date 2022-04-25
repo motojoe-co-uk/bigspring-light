@@ -103,7 +103,7 @@ service:
   - title: Rental
     images:
     - images/rental/ram.png
-    - images/rental/bmw-range.png
+    - images/rental/range.jpg
     content: Rent one of our latest model BMW motorcycles.<br/><br/>
       Go your own way or let us help you with a route, tailored specifically to your needs.
     button:
@@ -111,7 +111,7 @@ service:
       label: More info...
       link: "rental/rental-prices"
 
-  - title: On-road Training
+  - title: Training
     images:
     - images/openroads.jpg
     - images/overtaking.jpg
@@ -126,13 +126,12 @@ service:
       label: More info...
       link: "training"
 
-  - title: Off-road Training
+  - title: Adventure
     images:
-    - images/off-road/image_1.jpg
+    # - images/off-road/image_1.jpg
     - images/off-road/image_2.jpg
     - images/off-road/image_3.jpg
     - images/off-road/image_4.jpg
-    - images/off-road/image_5.jpg
     content: From an introduction to off-road riding on a BMW R 1200 GS to full days off-road and organised trips.<br/><br/>
       Hire one of our BMW R 1200 GS off-road prepared bikes or join us on your own bike on one of our Forest Trail days.
     button:
