@@ -106,6 +106,8 @@ hero:
         </h4>
         <div class="card-body">
           <p class="lead">Expand your DAS training with any additional training or tests as required.</p>
+          <br/>
+          <p>Motorcycle hire and full riderwear hire included.</p>
         </div>
       </div>
             <!-- <hr class="featurette-divider"> -->

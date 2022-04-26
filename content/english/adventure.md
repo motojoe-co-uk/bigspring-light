@@ -50,8 +50,9 @@ hero:
                     »</a></span>
         </h4>
         <div class="card-body">
-            <p class="lead">Experience a BMW off-road.</p>
+            <p class="lead mb-4">Experience a BMW off-road.</p>
             <p>Come and experience off-roading on our BMW bikes at our exclusive Central Park.</p>
+            <br/>
             <p>Each 90-minute session on one of our off-road GSs will involve:</p>
             <ul>
                 <li>Motorcycle recovery - how to pick up a bike</li>
@@ -61,6 +62,7 @@ hero:
                 <li>Riding an off-road trail</li>
             </ul>
             <p>Each session includes the use of our off-road prepared GS motorcycles.</p>
+            <br/>
             <p>You must:</p>
             <ul>
                 <li>Have a full motorcycle licence and bring it with you (both parts if it is a two-part licence);</li>
@@ -87,19 +89,26 @@ hero:
                     »</a></span>
         </h4>
         <div class="card-body">
-            <p class="lead">Join us on one of our Forest Trail runs.</p>
+            <p class="lead mb-4">Join us on one of our Forest Trail runs.</p>
             <p>Includes one of our off-road prepared BMW R 1200 GS motorcycles.</p>
+            <br/>
             <p>We also have access to smaller bikes, if preferred (limited availability). Please contact us for details.
             </p>
-            <p>A fantastic and rare opportunity to ride on some forest trails in Scotland for around 60 miles.
-                Instruction is provided throughout the day.</p>
+            <br/>
+            <p>A fantastic and rare opportunity to ride on some forest trails in Scotland for around 60 miles.</p>
+            <br/>
+            <p>Instruction is provided throughout the day.</p>
+            <br/>
             <p>The Forest Trails run in the Scottish Borders. The exact location and further details will be provided
                 once booked, normally 1 week in advance.</p>
+            <br/>
             <p>Attendees must have off-road experience to participate. Try one of our Dirty Demos first, if you need
                 experience and/or want a refresher.</p>
-            *No refunds given, unless we are able to find a replacement rider in time.</p>
+            <br/>
+            <p>*No refunds given, unless we are able to find a replacement rider in time.</p>
         </div>
     </div>
+    <br/>
     <div class="card">
         <h4 class="card-header d-flex justify-content-between align-items-center">
             Forest Trails (using own bike)
@@ -107,15 +116,20 @@ hero:
                     »</a></span>
         </h4>
         <div class="card-body">
-            <p class="lead">Join us on one of our Forest Trail runs.</p>
+            <p class="lead mb-4">Join us on one of our Forest Trail runs.</p>
             <p>Join us on your own motorcycle (knobbly tyres required).</p>
-            <p>A fantastic and rare opportunity to ride on some forest trails in Scotland for around 60 miles.
-                Instruction is provided throughout the day.</p>
+            <br/>
+            <p>A fantastic and rare opportunity to ride on some forest trails in Scotland for around 60 miles.</p>
+            <br/>
+            <p>Instruction is provided throughout the day.</p>
+            <br/>
             <p>The Forest Trails run in the Scottish Borders. The exact location and further details will be provided
                 once booked, normally 1 week in advance.</p>
+            <br/>
             <p>Attendees must have off-road experience to participate. Try one of our Dirty Demos first, if you need
                 experience and/or want a refresher.</p>
-            *No refunds given, unless we are able to find a replacement rider in time.</p>
+            <br/>
+            <p>*No refunds given, unless we are able to find a replacement rider in time.</p>
         </div>
     </div>
 </div>
