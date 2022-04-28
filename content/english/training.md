@@ -53,7 +53,7 @@ hero:
           <p>Day 1 - A combination of theory and introduction to motorcycling on our private training area.</p>
           <p>Day 2 - Continuing on from day 1 and venturing on to the road.</p>
           <br/>
-          <p>Motorcycle hire and full riderwear hire included.</p>
+          <p>Motorcycle hire and trousers, jacket, helmet, gloves and boot hire included.</p>
         </div>
       </div>
       <br>
@@ -69,7 +69,7 @@ hero:
           <p>Morning - A combination of theory and introduction to motorcycling on our private training area.</p>
           <p>Afternoon - Continuing on from the morning and venturing on to the road.</p>
           <br/>
-          <p>Motorcycle hire and full riderwear hire included.</p>
+          <p>Motorcycle hire and trousers, jacket, helmet, gloves and boot hire included.</p>
         </div>
       </div>
       <!-- <hr class="featurette-divider"> -->
@@ -95,7 +95,7 @@ hero:
             have passed, an A2 licence holder may upgrade to an unlimited licence by taking both practical tests on a
             full power bike.</p>
           <br/>
-          <p>Motorcycle hire and full riderwear hire included.</p>
+          <p>Motorcycle hire and trousers, jacket, helmet, gloves and boot hire included.</p>
         </div>
       </div>
       <br>
@@ -107,7 +107,7 @@ hero:
         <div class="card-body">
           <p class="lead">Expand your DAS training with any additional training or tests as required.</p>
           <br/>
-          <p>Motorcycle hire and full riderwear hire included.</p>
+          <p>Motorcycle hire and trousers, jacket, helmet, gloves and boot hire included.</p>
         </div>
       </div>
             <!-- <hr class="featurette-divider"> -->
@@ -125,7 +125,7 @@ hero:
           <p class="lead mb-4">A refresher course aimed at people with prior riding experience who have been away from riding for a period of time, are moving up in power or are trying to learn or practise a new skill.</p>
           <p>There is no set training programme as every course is tailored to suit your needs and requirements.</p>
           <br/>
-          <p>Motorcycle hire and full riderwear hire included.</p>
+          <p>Motorcycle hire and trousers, jacket, helmet, gloves and boot hire included.</p>
         </div>
       </div>
             <!-- <hr class="featurette-divider"> -->
@@ -147,7 +147,7 @@ hero:
             riding skills and confidence on the road. As well as making riding more enjoyable and safer, completing the
             scheme can give you discounts on your Motorcycle insurance.</p>
           <br/>
-          <p>Motorcycle hire and full riderwear hire included.</p>
+          <p>Motorcycle hire and trousers, jacket, helmet, gloves and boot hire included.</p>
         </div>
       </div>
             <!-- /END THE FEATURETTES -->
