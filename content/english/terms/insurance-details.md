@@ -14,11 +14,11 @@ Please read these insurance details and ensure you meet all of the conditions.
 
 ### Insurance Restrictions
 The following is an extract from the conditions our insurers apply to our policy.
-
+<br/><br/>
 *Basically check you can provide the appropriate level of identification, you are old enough, have the required driving/riding experience, are not excluded due to licence endorsements of criminal convictions and your occupation is not in the list of excluded occupations. You will have to sign a declaration to say you have read and understood the conditions and the information you supply is accurate, before you can take your rented motorcycle off our premises.*
-
+<br/><br/>
 Please understand the list of excluded occupations has been supplied by our insurers and we have no control over which occupations they deem “unsuitable”.
-
+<br/><br/>
 Driving Licences listed below are accepted.
 
 - UK
@@ -33,6 +33,7 @@ If your licence is not issued from the list above, we will have to refer to our 
 
 
 If you are unsure about whether you meet the insurance requirements, please contact us and we will clarify the position.
+<br/><br/>
 
 ### Hiring Conditions
 
@@ -55,6 +56,7 @@ Regardless of the basis agreed the following requirements will always apply.
 Rentamotorcycle staff must check the hirer’s licence is current/valid for the vehicle being hired and the address shown on the licence is the hirer’s/driver’s current address. 
 
 A photocopy will be taken and retained with the rental agreement.
+<br/><br/>
 
 **4.** Unless previously agreed with the insurers the motorcycle will not be let out on hire to or driven by:-
 
@@ -103,16 +105,19 @@ e. Any persons engaged in any of the following occupations:
 f. Any persons who have any criminal convictions.
 
 g. The driver must have a driving licence without any terms or restrictions imposed by the DVLA or DVAS or equivalent for any medical condition requiring notification. 
+<br/><br/>
 
 ### Excess
 
 It is hereby noted that the policy excess of £750 in respect of all Motorcycles.
 
 Note: we apply a further excess amount so excess amounts are detailed in our pricing schedule.
+<br/><br/>
 
 ### Age Restrictions
 
 No motorcycle will be let out on hire to or driven by anyone under 25 years of age (increased to 30 in respect of pillion use) or any person over 65 years of age.
+<br/><br/>
 
 ### Record Inspection
 
