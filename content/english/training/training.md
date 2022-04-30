@@ -2,7 +2,13 @@
 title: MotoJoe Training
 description : MotoJoe Training
 draft: false
-type: hero
+type: training
+
+menu:
+  main:
+    name: Courses
+    parent: training
+    weight: 1
 
 hero:
   title: 
@@ -33,7 +39,7 @@ hero:
       <!-- <hr class="featurette-divider"> -->
       <div class="row">
         <div class="col">
-          <h2 class="text-center mb-5">COMPULSORY BASIC TRAINING (CBT)</h2>
+          <h2 id="cbt" class="text-center mb-5">COMPULSORY BASIC TRAINING (CBT)</h2>
         </div>
       </div>
       <div class="card">

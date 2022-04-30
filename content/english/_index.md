@@ -51,11 +51,11 @@ feature:
   feature_item:
   - name: Guided Tours
     icon: fas fa-map-marked-alt
-    content: Guided and unguided tours of Scotland<br/><br/>
+    content: Let us lead you around Scotland<br/><br/>
     link: /tours/guided-tours
   - name: Unguided Tours
     icon: fas fa-route
-    content: Guided and unguided tours of Scotland<br/><br/>
+    content: Tour Scotland at your own pace<br/><br/>
     link: /tours/unguided-tours
   - name: Rentals
     icon: fas fa-motorcycle
@@ -66,8 +66,12 @@ feature:
     content: CBT / DAS and ERS Training<br/><br/>
     link: /training
   - name: Off-road training
-    icon: fas fa-tree
+    icon: fas fa-compass
     content: Introductions to off-road riding to full days off-road
+    link: /adventure
+  - name: Adventure training
+    icon: fas fa-tree
+    content: Immersive First Aid, Camping and Survival Training
     link: /adventure
 
 service:
@@ -76,10 +80,10 @@ service:
 
   - title: Guided Tours
     images:
-    - images/guided/isle-of-man-tt-2022.gif
-    - images/guided/speyside-2022.gif
-    - images/guided/glenelg-jul-2022.gif
-    - images/guided/glenelg-sep-2022.gif
+      - images/guided/isle-of-man-tt-2022.gif
+      - images/guided/speyside-2022.gif
+      - images/guided/glenelg-jul-2022.gif
+      - images/guided/glenelg-sep-2022.gif
     content: <strong>Spectacular Tours of Scotland</strong><br/><br/>
       MotoJoe runs guided tours taking you to our favourite parts of Scotland and, occasionally, beyond.
     button:
@@ -89,10 +93,10 @@ service:
 
   - title: Unguided Tours
     images:
-    - images/unguided/image_1.jpeg
-    - images/unguided/image_2.jpeg
-    - images/unguided/image_3.jpeg
-    - images/unguided/image_4.jpeg
+      - images/unguided/image_1.jpeg
+      - images/unguided/image_2.jpeg
+      - images/unguided/image_3.jpeg
+      - images/unguided/image_4.jpeg
     content: <strong>Spectacular Tours of Scotland</strong><br/><br/>
       MotoJoe organises unguided tours, building routes and also booking accommodation, if required, tailoring a trip to your specific requirements.
     button:
@@ -102,8 +106,8 @@ service:
 
   - title: Rental
     images:
-    - images/rental/ram.png
-    - images/rental/range.jpg
+      - images/rental/ram.png
+      - images/rental/range.jpg
     content: Rent one of our latest model BMW motorcycles.<br/><br/>
       Go your own way or let us help you with a route, tailored specifically to your needs.
     button:
@@ -113,10 +117,10 @@ service:
 
   - title: Training
     images:
-    - images/openroads.jpg
-    - images/overtaking.jpg
-    - images/ts.jpg
-    - images/roundabouts.jpg
+      - images/openroads.jpg
+      - images/overtaking.jpg
+      - images/ts.jpg
+      - images/roundabouts.jpg
     content: <ul><li>Compulsory Basic Training (CBT)</li>
       <li>Direct Access (DAS)</li>
       <li>Enhanced Rider Scheme Training (ERS)</li></ul><br/>
@@ -128,12 +132,13 @@ service:
 
   - title: Adventure
     images:
-    # - images/off-road/image_1.jpg
-    - images/off-road/image_2.jpg
-    - images/off-road/image_3.jpg
-    - images/off-road/image_4.jpg
+      # - images/off-road/image_1.jpg
+      - images/off-road/image_2.jpg
+      - images/off-road/image_3.jpg
+      - images/off-road/image_4.jpg
     content: From an introduction to off-road riding on a BMW R 1200 GS to full days off-road and organised trips.<br/><br/>
-      Hire one of our BMW R 1200 GS off-road prepared bikes or join us on your own bike on one of our Forest Trail days.
+      Hire one of our BMW R 1200 GS off-road prepared bikes or join us on your own bike on one of our Forest Trail days.<br/><br/>
+      Immersive First Aid Training, Camping and Survival Training courses for your next Travel Adventure.
     button:
       enable: true
       label: More info...
@@ -141,7 +146,7 @@ service:
 
   - title: BIC Rally Club
     images:
-    - images/bic_rally_club.png
+      - images/bic_rally_club.png
     content: "Join the #BecauseICan Rally Club and have a voice in shaping off-road riding in Scotland."
     button:
       enable: true

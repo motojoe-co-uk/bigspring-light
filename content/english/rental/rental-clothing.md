@@ -13,8 +13,11 @@ menu:
 ---
 
 <p>We have a range of clothing available to rent or purchase, all from the Spada range.</p>
+<br/>
 <p>Rental does not include helmets, which are only available for purchase.</p>
+<br/>
 <p>Jacket, trousers, boots and gloves are available to rent at £90 for the first 7 days. Each additional day beyond the first 7 day period is charged at £13.85 per day.</p>
+<br/>
 <table>
 <tbody>
 <tr>
@@ -75,5 +78,7 @@ menu:
 <div style="clear: both;"></div>
 </div>
 <p>All Spada helmets are UN ECE Regulation 22.05 accredited and meet British Racing Standards.&nbsp;Spada Clothing is all fitted with CE approved armour and also waterproof.</p>
-<p>Sizing guide available <a href="https://www.spadaclothing.co.uk/size-guide">here</a>.</p>
+<br/>
+<p>Sizing guide is available <a href="https://www.spadaclothing.co.uk/size-guide">here</a>.</p>
+<br/>
 <p>Please <a href="mailto:rentals@motojoe.co.uk">contact us</a> to ensure we have your size available and in-stock, for your arrival.</p>

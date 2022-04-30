@@ -1,5 +1,5 @@
 ---
 title: "Tours"
-description : "this is a meta description"
+description : "Tours"
 draft: false
 ---

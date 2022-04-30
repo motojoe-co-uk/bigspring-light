@@ -6,7 +6,7 @@ draft: false
 menu:
   main:
     name: Training Terms
-    parent: rental
+    parent: training
     weight: 1000
 
 ---

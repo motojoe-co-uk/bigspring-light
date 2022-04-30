@@ -2,9 +2,9 @@ author = "Martin Williamson"
 blogCategoryType = "category"
 contact_form_action = "#"
 description = "MotoJoe Website"
-image = "images/motojoe.svg"
-logo = "images/motojoe.svg"
-logo_width = "150px"
+image = "images/MotoJoe.gif"
+logo = "images/MotoJoe.gif"
+logo_width = "200px"
 
 [cookies]
 button = "I Accept"

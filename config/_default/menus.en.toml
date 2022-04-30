@@ -68,5 +68,5 @@ url = "/terms/rental-terms"
 name = "Tour Terms"
 url = "/terms/tour-terms"
 [[footer_right]]
-name = "Insurance Details"
-url = "/terms/insurance-details"
+name = "Training Terms"
+url = "/terms/training-terms"
