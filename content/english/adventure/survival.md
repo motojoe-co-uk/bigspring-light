@@ -42,17 +42,32 @@ hero:
         </h4>
         <div class="card-body">
             <p class="lead mb-4">Tips and techniques to help your adventure travel go smoothly.</p>
-            <p>Join us on your own motorcycle (knobbly tyres required).</p>
-            <br/>
-            <p>A fantastic and rare opportunity to ride on some forest trails in Scotland for around 60 miles.</p>
-            <br/>
-            <p>Instruction is provided throughout the day.</p>
-            <br/>
-            <p>The Forest Trails run in the Scottish Borders. The exact location and further details will be provided once booked, normally 1 week in advance.</p>
-            <br/>
-            <p>Attendees must have off-road experience to participate. Try one of our Dirty Demos first, if you need experience and/or want a refresher.</p>
-            <br/>
-            <p>*No refunds given, unless we are able to find a replacement rider in time.</p>
+            <p>Join us for a 2 day course to include:</p>
+            <ul>
+                <li>Travel security</li>
+                <li>Accommodation security</li>
+                <li>Bike security</li>
+                <li>Bike preparation</li>
+                <li>Luggage</li>
+                <li>Kit lists</li>
+                <li>Accommodation - including wild camping</li>
+                <li>Sleeping equipment</li>
+                <li>Cooking equipment</li>
+                <li>Food/Water</li>
+                <li>Tool kits</li>
+                <li>Clothing</li>
+                <li>Bike maintenance</li>
+                <li>Puncture repair</li>
+                <li>Brake repair</li>
+                <li>Navigation</li>
+                <li>Map and Compass</li>
+                <li>GPS</li>
+                <li>Orientation</li>
+                <li>Different accommodation</li>
+                <li>Different stoves</li>
+                <li>Packing your bike</li>
+            </ul>
+            <p>Including an evening BBQ / Wild camp</p>
         </div>
     </div>
 </div>
