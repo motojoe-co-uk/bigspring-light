@@ -16,12 +16,12 @@
             <img class="img-fluid vw-100 lazyload" data-src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" data-sizes="auto" alt="{{.Title}}">
             {{ else }}
             <!-- <img class="img-fluid w-100" src="/img/ram.svg" alt="{{.Title}}"> -->
-            <img class="img-fluid vw-100 lazyload" data-src="/images/ram.svg" data-sizes="auto" alt="{{.Title}}">
+            <img class="img-fluid vw-100 lazyload" data-src="/images/MotoJoe.gif" data-sizes="auto" alt="{{.Title}}">
             {{ end }}
           </a>
         </div>
         <div class="content text-center justify-content-center">
-          <h5 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{ .Title }}<br />
+          <h5 class="mt-2 mb-2"><a href="{{.Permalink}}" class="link-title">{{ .Title }}<br />
               {{ dateFormat "Jan 2006" .Date }}
             </a></h5>
           <!-- <h4 class="subheading"><a class="link-title" href="{{.Permalink}}">{{ .Title | markdownify }}</a></h4> -->

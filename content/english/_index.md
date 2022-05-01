@@ -32,7 +32,17 @@ hero:
       subheading: forest trails
       image: images/adventure/off-road_training.png
       link: https://motojoe.co.uk/training
-  
+    - item:
+      heading: first aid qualifications
+      subheading: immersive training
+      image: images/adventure/first-aid.jpg
+      link: https://motojoe.co.uk/adventure/first-aid-courses
+    - item:
+      heading: camping and survival
+      subheading: for adventure travel 
+      image: images/adventure/camping.jpg
+      link: https://motojoe.co.uk/adventure/camping-and-survival-courses
+    
 banner:
   title: MotoJoe is all about having fun with motorcycles
   image: images/motojoe.svg
@@ -106,7 +116,6 @@ service:
 
   - title: Rental
     images:
-      - images/rental/ram.png
       - images/rental/range.jpg
     content: Rent one of our latest model BMW motorcycles.<br/><br/>
       Go your own way or let us help you with a route, tailored specifically to your needs.
@@ -139,6 +148,12 @@ service:
     content: From an introduction to off-road riding on a BMW R 1200 GS to full days off-road and organised trips.<br/><br/>
       Hire one of our BMW R 1200 GS off-road prepared bikes or join us on your own bike on one of our Forest Trail days.<br/><br/>
       Immersive First Aid Training, Camping and Survival Training courses for your next Travel Adventure.
+      <ul>
+        <li>Dirty Demos (Introduction to off-road riding)</li>
+        <li>Forest Trails (hire or own bike)</li>
+        <li>Immersive First Aid Training</li>
+        <li>Camping and Survival Training</li>
+      </ul>
     button:
       enable: true
       label: More info...
@@ -166,7 +181,7 @@ call_to_action:
   enable: true
   title: How can we help?
   image: images/help.jpeg
-  content: Call us or email us if we can help you with any motorcycle related queries.
+  content: Call us on +44 (0) 131 603 4466, email us at [info@motojoe.co.uk](mailto:info@motojoe.co.uk) or click on the button below.
   button:
     enable: true
     label: Contact Us
