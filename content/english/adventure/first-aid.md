@@ -16,12 +16,7 @@ hero:
     - item:
       heading: MotoJoe Adventure
       subheading: Introduction to off-road riding
-      image: /images/adventure/dirty_demo.jpg
-      # link: https://rentamotorcycle.co.uk
-    - item:
-      heading: MotoJoe Adventure
-      subheading: Forest Trails
-      image: /images/adventure/off-road_training.png
+      image: /images/adventure/first-aid.jpg
       # link: https://rentamotorcycle.co.uk
 
 ---
