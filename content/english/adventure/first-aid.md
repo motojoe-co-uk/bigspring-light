@@ -15,7 +15,7 @@ hero:
   images: 
     - item:
       heading: MotoJoe Adventure
-      subheading: Introduction to off-road riding
+      subheading: Immersive First Aid Training
       image: /images/adventure/first-aid.jpg
       # link: https://rentamotorcycle.co.uk
 
