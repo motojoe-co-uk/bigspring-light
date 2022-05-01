@@ -37,7 +37,7 @@ hero:
         </h4>
         <div class="card-body">
             <p class="lead mb-4">Tips and techniques to help your adventure travel go smoothly.</p>
-            <p>Join us for a 2 day course to include:</p>
+            <p>Join us for a 2 day, practical, hands-on course to include:</p>
             <ul>
                 <li>Travel security</li>
                 <li>Accommodation security</li>
