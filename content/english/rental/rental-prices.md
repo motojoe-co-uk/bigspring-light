@@ -19,7 +19,7 @@ All our prices include:
 - A fair use mileage policy – mileage is unlimited but please tell us if you are planning to exceed 300 miles per day
 - BMW Roadside Recovery
 - All applicable taxes
-<br/><br/>
+<br/>
 
 The weekend rate is based on a 2 day rental commencing on a Friday or Saturday and returning up to 48 hours later and the week rate is based on a rental of 7 days or more. Please Note: Our rental office is closed every Sunday and Monday.
 However, one particularly wonderful member of our team gives up their days off just to meet our rental customers on these days. We therefore ask you to note the following regarding collections or returns on a Sunday or Monday:

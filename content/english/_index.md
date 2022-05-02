@@ -77,7 +77,7 @@ feature:
     link: /training
   - name: Off-road training
     icon: fas fa-compass
-    content: Introductions to off-road riding to full days off-road
+    content: Introduction to off-road riding to full days off-road
     link: /adventure
   - name: Adventure training
     icon: fas fa-tree

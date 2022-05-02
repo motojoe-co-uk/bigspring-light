@@ -71,7 +71,7 @@ exports.handler = function (event, context, callback) {
         <br/>
         <table style="font-family:Arial;font-size:12px">
             <tbody>
-            <tr><td style="border-right-width:2px;border-right-style:solid;border-right-color:rgb(17,134,200);padding-right:10px"><a href="http://www.motojoe.co.uk/" target="_blank"><img src="https://ci3.googleusercontent.com/proxy/_5oxbiNojwYST59oHZhADrU4hTnSryzkflr_ExZyUa179h9SfvAOgtpStzehou0EMR7yAxPDIYZPjPeCfk4Mjn5-W2177KKGOMtV9-9eVjlpofKQZDQWc1ni63ioZVmUnjJ55eXPKWbVe4Gj4h6EhJ5QShoglpsI-wuilvA=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/6788d892-69ce-4cad-bac0-45812ec75900.jpg"></a><a></a></td>
+            <tr><td style="border-right-width:2px;border-right-style:solid;border-right-color:rgb(17,134,200);padding-right:10px"><a href="http://www.motojoe.co.uk/" target="_blank"><img src="https://motojoes.netlify.app/images/MotoJoe.gif"></a><a></a></td>
             <td style="padding-left:10px">
                 <div style="color:rgb(51,51,51);font-weight:bold;font-size:14px;margin-bottom:5px">Rental Enquiries</div>
                 <div style="margin-bottom:2px"><i>BMW Motorcycle Tours and Rentals in Scotland</i></div>
