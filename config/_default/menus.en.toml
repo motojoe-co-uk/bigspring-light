@@ -36,7 +36,7 @@ weight = 6
 name = "About Us"
 url = "#"
 [[footer_left]]
-name = "Testimonails"
+name = "Testimonials"
 url = "/testimonials"
 [[footer_left]]
 name = "Tours"
