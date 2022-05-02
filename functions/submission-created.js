@@ -58,12 +58,9 @@ exports.handler = function (event, context, callback) {
 
     if (msg) {
 
-        const signature = `<br>
-        Kindest regards,<br>
-        Amy<br>
-        <br>
-        Amy Tyrrell<br>
-        Tours & Rental Manager<br/><br/>
+        const signature = `<br/>
+        Kindest regards,<br/>
+        Amy<br/><br/>
         Scotland's leading motorcycle rental company.<br/><br/>
         Follow us on <a href="https://www.facebook.com/motojoe.co.uk">Facebook</a> and <a href="https://www.instagram.com/motojoe.co.uk/">Instagram</a><br/><br/>
         
@@ -73,20 +70,27 @@ exports.handler = function (event, context, callback) {
             <tbody>
             <tr><td style="border-right-width:2px;border-right-style:solid;border-right-color:rgb(17,134,200);padding-right:10px"><a href="http://www.motojoe.co.uk/" target="_blank"><img src="https://motojoes.netlify.app/images/MotoJoe.gif"></a><a></a></td>
             <td style="padding-left:10px">
-                <div style="color:rgb(51,51,51);font-weight:bold;font-size:14px;margin-bottom:5px">Rental Enquiries</div>
-                <div style="margin-bottom:2px"><i>BMW Motorcycle Tours and Rentals in Scotland</i></div>
+                <div style="color:rgb(51,51,51);font-weight:bold;font-size:14px;margin-bottom:5px">Amy Tyrrell</div>
+                <div style="margin-bottom:2px"><i>Tours & Rental Manager</i></div>
                 <div style="margin-bottom:4px"><a>www.motojoe.co.uk</a></div>
                 <div style="color:rgb(51,51,51);margin-bottom:4px">&#43;44 (0) 131 603 4466</div>
-                <a href="https://www.facebook.com/motojoe.co.uk" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/Y-NOCxcVj6H_rsZrYCpmGSjooJGl_L7qRxsDonneVIW4YrUfUatfJxSeY0jscqPngY49sXpPoufp4y1aGJcYOAPXZnlRFSsQVLbK7YoXceJE0IPT71dOyRyCznPdZEYW2wS4DkMctIhUU-fW0JzOdzBx_acsFemwFU2uvP8=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/37c183ed-cd47-4691-b9bc-d845c54c4806.png"></a>&nbsp;
-                <!-- <a href="https://www.linkedin.com/company/motojoe" target="_blank"><img src="https://ci6.googleusercontent.com/proxy/NSKLp1zFXVByuVJnT4mhmnvNwItRGBxq-tFcx1Z1iCWqx5wNlodFjTk8Q0lh36T_SLzZNtFe9l0mLXuLaH_YG1CGrpSKMCcJML0bzF8RWj4hnMVLSfEMhJueVUg0uTTwH_56adhWx3suTyQwGPWiY2Ik9T0EyXP28pzoyAE=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/1a5e6c32-a0d1-4e06-9566-2a9ff1f55677.png"></a>&nbsp; -->
-                <a href="https://www.instagram.com/motojoe.co.uk/" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/LD93YPCKFw7EN7BN6Fh7GbJys0jsNTHD0ND0p4UecQkqOcXqmo8wAkUuFUP4LH04q5Bnh5AVXrRYt8YVK0DroI8RgEz4-qRqVPb1zSd2OGSs7K6lrpwj5UMacARomtoawJUDR20-_DsjOapMBfSwEJ08stdD2_Uii4kYvnE=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/20733471-d8c0-4262-85f5-542b336a5ea1.png"></a>&nbsp;
-                <!-- <a href="https://plus.google.com/103713213759608194818" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/nsd9dzoVpQcWgCR7qxLnQr52JvcbNkoQmtm9qfkIVIl5l-EsPasdUf3aQTY6VLsVO_Hpl3m8nq9s5SMQwuV_QtdifoV6vABCOoL8aouFwTZ-YWikOci2Vrq80kiLyJg2kWhob8unsIVmqA6oaG0lNdGb0NkZppuuH6JFge8=s0-d-e1-ft#https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/5438a100-4e5e-4172-9202-5a3c7a936350.png"></a> -->
+                <div style="color:rgb(51,51,51);margin-bottom:4px">&#43;44 (0) 7460 838068</div>
+                <a href="https://www.facebook.com/motojoe.co.uk" target="_blank"><img src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/37c183ed-cd47-4691-b9bc-d845c54c4806.png"></a>&nbsp;
+                <!-- <a href="https://www.linkedin.com/company/motojoe" target="_blank"><img src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/1a5e6c32-a0d1-4e06-9566-2a9ff1f55677.png"></a>&nbsp; -->
+                <a href="https://www.instagram.com/motojoe.co.uk/" target="_blank"><img src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/20733471-d8c0-4262-85f5-542b336a5ea1.png"></a>&nbsp;
+                <!-- <a href="https://plus.google.com/103713213759608194818" target="_blank"><img src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/5438a100-4e5e-4172-9202-5a3c7a936350.png"></a> -->
             </td>
             </tr>
             </tbody>
         </table>
         <br/>
-        <a href="http://www.motojoe.co.uk">rentamotorcycle.co.uk</a> trading name used by MotoJoe Ltd, a company registered in Scotland with registered number SC462439 and Motorrad Central (Scotland) Limited, a company registered in Scotland with registered number SC274747 (together, “the Motorrad Group”).<br/><br/>`
+        rentamotorcycle.co.uk is a trading name used by MotoJoe Ltd, a company registered in Scotland with registered number SC462439.<br/><br/>
+        MotoJoe is all about having fun with motorcycles<br/>
+        We can take you on adventures in Scotland and beyond.<br/>
+        We can help you take your first steps into motorcycling with our training.<br/>
+        We can take you off the beaten track and, indeed, the road, for off-road experiences.<br/>
+        Our ethos is to support and inspire each and every customer.<br/>
+        From helping you gain the skills and experience to get the most out of your time on a motorcycle to sharing our passion and enthusiasm for touring Scotland by motorcycle.<br/>`
 
         msg.html = msg.html + signature;
 
