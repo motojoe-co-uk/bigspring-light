@@ -62,13 +62,13 @@ exports.handler = function (event, context, callback) {
         Kindest regards,<br/>
         Amy<br/><br/>
         Scotland's leading motorcycle rental company.<br/><br/>
-        Follow us on <a href="https://www.facebook.com/motojoe.co.uk">Facebook</a> and <a href="https://www.instagram.com/motojoe.co.uk/">Instagram</a><br/><br/>
+        <!-- Follow us on <a href="https://www.facebook.com/motojoe.co.uk">Facebook</a> and <a href="https://www.instagram.com/motojoe.co.uk/">Instagram</a><br/><br/>-->
         
         We are an independent, family owned business and Scotland's Premier BMW motorcycle retailer. We are all enthusiastic motorcyclists and passionate about our products and brand. We are here to ensure you have a spectacular motorcycle holiday in Scotland.<br/>
         <br/>
         <table style="font-family:Arial;font-size:12px">
             <tbody>
-            <tr><td style="border-right-width:2px;border-right-style:solid;border-right-color:rgb(17,134,200);padding-right:10px"><a href="http://www.motojoe.co.uk/" target="_blank"><img src="https://motojoes.netlify.app/images/MotoJoe.gif"></a><a></a></td>
+            <tr><td style="border-right-width:2px;border-right-style:solid;border-right-color:rgb(17,134,200);padding-right:10px"><a href="http://www.motojoe.co.uk/" target="_blank"><img src="https://motojoes.netlify.app/images/MotoJoe.gif" width="180px"></a><a></a></td>
             <td style="padding-left:10px">
                 <div style="color:rgb(51,51,51);font-weight:bold;font-size:14px;margin-bottom:5px">Amy Tyrrell</div>
                 <div style="margin-bottom:2px"><i>Tours & Rental Manager</i></div>
@@ -83,13 +83,13 @@ exports.handler = function (event, context, callback) {
             </tr>
             </tbody>
         </table>
-        <br/>
+        <br/><br/>
         rentamotorcycle.co.uk is a trading name used by MotoJoe Ltd, a company registered in Scotland with registered number SC462439.<br/><br/>
-        MotoJoe is all about having fun with motorcycles<br/>
+        MotoJoe is all about having fun with motorcycles.<br/>
         We can take you on adventures in Scotland and beyond.<br/>
         We can help you take your first steps into motorcycling with our training.<br/>
-        We can take you off the beaten track and, indeed, the road, for off-road experiences.<br/>
-        Our ethos is to support and inspire each and every customer.<br/>
+        We can take you off the beaten track and, indeed, the road, for off-road experiences.<br/><br/>
+        <strong>Our ethos is to support and inspire each and every customer.</strong><br/><br/>
         From helping you gain the skills and experience to get the most out of your time on a motorcycle to sharing our passion and enthusiasm for touring Scotland by motorcycle.<br/>`
 
         msg.html = msg.html + signature;
