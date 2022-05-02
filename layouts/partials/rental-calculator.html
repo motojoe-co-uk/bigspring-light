@@ -68,8 +68,8 @@
                             <div class="form-group col-lg">
                                 <label for="bike">Select a Motorcycle</label>
                                 <select id="bike" name="bike" class="form-control col-11">
-                                    {{ range $key, $value := .bikes }}
-                                    <option value="{{ $value }}">{{ $key}}</option>
+                                    {{ range .bikes }}
+                                    <option value="{{ .price }}">{{ .bike }}</option>
                                     {{ end}}
                                 </select>
                             </div>
