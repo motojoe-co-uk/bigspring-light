@@ -5,17 +5,21 @@
 <section class="section bg-white">
   <div class="container">
     <div class="row">
+
       <div class="col-lg-7 mb-4 mb-lg-0">
-        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
+        <!-- <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="{{ i18n `yourname` }}">
           <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="{{ i18n `youremail` }}">
           <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="{{ i18n `subject` }}">
           <textarea name="message" id="message" class="form-control mb-3" placeholder="{{ i18n `yourmessage` }}"></textarea>
           <button type="submit" value="send" class="btn btn-main-sm">{{ i18n `sendnow` }}</button>
-        </form>
+        </form> -->
+      
+        {{ partial "contact" . }}
+
       </div>
       
-      <div class="col-lg-5 content">
+      <div class="col-lg-5 content mt-4">
         {{ .Content }}
       </div>
     </div>
