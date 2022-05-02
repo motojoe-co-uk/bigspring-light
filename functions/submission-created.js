@@ -140,14 +140,14 @@ function rental(data) {
     let msg = `<p>Thank you for contacting motojoe.co.uk</p>
     <p>Just to confirm we have received your availability enquiry and will respond in due course.</p>
     <br/>
-    <p>${data.firstname} ${data.lastname} (${data.email})</p>
+    <p>Enquiry from: ${data.firstname} ${data.lastname} (${data.email})</p>
     <br/>
     <table cellspacing="2" cellpadding="2">
         <tr><td>Motorcycle</td><td>Pick Up</td><td>Drop Off</td></tr>
         <tr><td>${data.motorcycle}</td><td>${data.pickup_date} ${data.pickup_hours}:${data.pickup_minutes}</td><td>${data.dropoff_date} ${data.dropoff_hours}:${data.dropoff_minutes}</td></tr>
     </table>
     <br/>
-    <table cellspacing="2" cellpadding="2">
+    <table cellspacing="3" cellpadding="3">
     <tr><td>Days</td><td>Daily Rate</td><td>Charge</td></tr>
     <tr><td>${data.days}</td><td>${data.daily}</td><td align="right">${data.charge}</td></tr>`
 
