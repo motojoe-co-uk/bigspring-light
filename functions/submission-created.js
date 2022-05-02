@@ -61,10 +61,10 @@ exports.handler = function (event, context, callback) {
         const signature = `<br/>
         Kindest regards,<br/>
         Amy<br/><br/>
-        Scotland's leading motorcycle rental company.<br/><br/>
+        <!-- Scotland's leading motorcycle rental company.<br/><br/> -->
         <!-- Follow us on <a href="https://www.facebook.com/motojoe.co.uk">Facebook</a> and <a href="https://www.instagram.com/motojoe.co.uk/">Instagram</a><br/><br/>-->
         
-        We are an independent, family owned business and Scotland's Premier BMW motorcycle retailer. We are all enthusiastic motorcyclists and passionate about our products and brand. We are here to ensure you have a spectacular motorcycle holiday in Scotland.<br/>
+        <!-- We are an independent, family owned business and Scotland's Premier BMW motorcycle retailer. We are all enthusiastic motorcyclists and passionate about our products and brand. We are here to ensure you have a spectacular motorcycle holiday in Scotland.<br/> -->
         <br/>
         <table style="font-family:Arial;font-size:12px">
             <tbody>
