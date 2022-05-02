@@ -149,7 +149,7 @@ function rental(data) {
     <br/>
     <table cellspacing="2" cellpadding="2">
     <tr><td>Days</td><td>Daily Rate</td><td>Charge</td></tr>
-    <tr><td>${data.days}</td><td>${data.days}</td><td align="right">${data.charge}</td></tr>`
+    <tr><td>${data.days}</td><td>${data.daily}</td><td align="right">${data.charge}</td></tr>`
 
     if (data.weekend_charge != "£0") {
         msg = msg + `<tr><td colspan="2" align="right">Weekend Rate Applies</td><td align="right">${data.weekend_charge}</td></tr>`
