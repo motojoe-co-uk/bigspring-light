@@ -59,10 +59,17 @@ exports.handler = function (event, context, callback) {
     if (msg) {
 
         const signature = `<br/>
-        Kindest regards,<br/>
-        Amy<br/><br/>
-        <!-- Scotland's leading motorcycle rental company.<br/><br/> -->
-        <!-- Follow us on <a href="https://www.facebook.com/motojoe.co.uk">Facebook</a> and <a href="https://www.instagram.com/motojoe.co.uk/">Instagram</a><br/><br/>-->
+        Kindest regards,
+        <br/>
+        Amy
+        <br/>
+        <br/>
+        <!-- Scotland's leading motorcycle rental company.
+            <br/>
+            <br/> -->
+        <!-- Follow us on <a href="https://www.facebook.com/motojoe.co.uk">Facebook</a> and <a href="https://www.instagram.com/motojoe.co.uk/">Instagram</a>
+            <br/>
+            <br/> -->
         
         <!-- We are an independent, family owned business and Scotland's Premier BMW motorcycle retailer. We are all enthusiastic motorcyclists and passionate about our products and brand. We are here to ensure you have a spectacular motorcycle holiday in Scotland.<br/> -->
         <br/>
@@ -84,13 +91,20 @@ exports.handler = function (event, context, callback) {
             </tbody>
         </table>
         <br/><br/>
-        rentamotorcycle.co.uk is a trading name used by MotoJoe Ltd, a company registered in Scotland with registered number SC462439.<br/><br/>
+        rentamotorcycle.co.uk is a trading name used by MotoJoe Ltd, a company registered in Scotland with registered number SC462439.
+        <br/>
+        <br/>
         MotoJoe is all about having fun with motorcycles.<br/>
         We can take you on adventures in Scotland and beyond.<br/>
         We can help you take your first steps into motorcycling with our training.<br/>
-        We can take you off the beaten track and, indeed, the road, for off-road experiences.<br/><br/>
-        <strong>Our ethos is to support and inspire each and every customer.</strong><br/><br/>
-        From helping you gain the skills and experience to get the most out of your time on a motorcycle to sharing our passion and enthusiasm for touring Scotland by motorcycle.<br/>`
+        We can take you off the beaten track and, indeed, the road, for off-road experiences.
+        <br/>
+        <br/>
+        <strong>Our ethos is to support and inspire each and every customer.</strong>
+        <br/>
+        <br/>
+        From helping you gain the skills and experience to get the most out of your time on a motorcycle to sharing our passion and enthusiasm for touring Scotland by motorcycle.
+        <br/>`
 
         msg.html = msg.html + signature;
 
