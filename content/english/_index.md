@@ -74,15 +74,15 @@ feature:
   - name: On-road training
     icon: fas fa-road
     content: CBT / DAS and ERS Training<br/><br/>
-    link: /training
+    link: /training/training-courses
   - name: Off-road training
     icon: fas fa-compass
     content: Introduction to off-road riding to full days off-road
-    link: /adventure
+    link: /adventure/dirty-demos
   - name: Adventure training
     icon: fas fa-tree
     content: Immersive First Aid, Camping and Survival Training
-    link: /adventure
+    link: /adventure/first-aid-courses
 
 service:
   enable: true
