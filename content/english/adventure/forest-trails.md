@@ -1,8 +1,10 @@
 ---
-title: MotoJoe Adventure
+title: Forest Trails
 description : MotoJoe Adventure
 draft: false
 type: adventure
+
+image: /images/adventure/off-road_training.png
 
 menu:
   main:
@@ -13,7 +15,7 @@ menu:
 hero:
   title: 
   images: 
-    item:
+    - item:
       heading: MotoJoe Adventure
       subheading: Forest Trails
       image: /images/adventure/off-road_training.png

@@ -1,8 +1,10 @@
 ---
-title: MotoJoe Adventure
+title: Dirty Demos
 description : MotoJoe Adventure
 draft: false
 type: adventure
+
+image: /images/adventure/dirty_demo.jpg
 
 menu:
   main:
@@ -13,6 +15,11 @@ menu:
 hero:
   title: 
   images: 
+    - item:
+      heading: MotoJoe Adventure
+      subheading: Introduction to off-road riding
+      image: /images/adventure/dirty_demo.jpg
+      # link: https://rentamotorcycle.co.uk
     - item:
       heading: MotoJoe Adventure
       subheading: Introduction to off-road riding

@@ -1,8 +1,10 @@
 ---
-title: MotoJoe Adventure
+title: Camping & Survival
 description : MotoJoe Adventure
 draft: false
 type: adventure
+
+image: /images/adventure/camping.jpg
 
 menu:
   main:

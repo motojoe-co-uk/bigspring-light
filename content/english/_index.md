@@ -78,11 +78,11 @@ feature:
   - name: Off-road training
     icon: fas fa-compass
     content: Introduction to off-road riding to full days off-road
-    link: /adventure/dirty-demos
+    link: /adventure
   - name: Adventure training
     icon: fas fa-tree
     content: Immersive First Aid, Camping and Survival Training
-    link: /adventure/first-aid-courses
+    link: /adventure
 
 service:
   enable: true

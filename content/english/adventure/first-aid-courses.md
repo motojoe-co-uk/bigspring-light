@@ -1,8 +1,10 @@
 ---
-title: MotoJoe Adventure
+title: Immersive First Aid
 description : MotoJoe Adventure
 draft: false
 type: adventure
+
+image: /images/adventure/first-aid.jpg
 
 menu:
   main:
